@@ -1,0 +1,1851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giao Hang</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- CSS Files -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+    <!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!-- navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand"><img src="assets/img/logo.svg" alt="">Arrow Express</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li><a class="nav-link scrollto active" href="#home">Home</a></li>
+              <li><a class="nav-link scrollto " href="#services">Services</a></li>
+              <li><a class="nav-link scrollto " href="#news">News</a></li>
+              <li><a class="nav-link scrollto " href="#footer">Contact Us</a></li>
+              <li><a class="btn" role="button" href="#signin">Sign in</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+    <!-- home -->
+    <section id="home" class="home ">
+      <div class="container-fluid ">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="assets/img/carousel/template1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item active">
+            <img src="assets/img/carousel/template2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel/template3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+      </div>
+    </section>
+    <!-- estimate -->
+    <section id="estimate" class="estimate">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="box">
+              <h4><i class="bi bi-box-seam"></i>Tracking Numbers</h4>
+              <img src="assets/img/tracking.png" class="w-100" alt="">
+              <a href="#" class="btn" role="button">SEARCH</a>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box">
+              <h4><i class="ri-scales-3-line"></i>Cost estimation</h4>
+                <form>
+                  <label>From</label>
+                  <select class="form-select">
+                      <option selected>Select Province/City</option>
+                      <option value="HNI">TP.Hà Nội</option>
+                      <option value="HCM">TP.Hồ Chí Minh</option>
+                      <option value="HPG">TP.Hải Phòng</option>
+                      <option value="DNG">TP.Đà Nẵng</option>
+                      <option value="CTO">TP.Cần Thơ</option>
+                      <option value="TGG">T.Tiền Giang</option>
+                      <option value="HUG">T.Hậu Giang</option>
+                      <option value="DKG">T.Đăk Nông</option>
+                      <option value="VPC">T.Vĩnh Phúc</option>
+                      <option value="BNH">T.Bắc Ninh</option>
+                      <option value="HDG">T.Hải Dương</option>
+                      <option value="HYN">T.Hưng Yên</option>
+                      <option value="HNM">T.Hà Nam</option>
+                      <option value="NDH">T.Nam Ðịnh</option>
+                      <option value="TBH">T.Thái Bình</option>
+                      <option value="NBH">T.Ninh Bình</option>
+                      <option value="HGG">T.Hà Giang</option>
+                      <option value="CBG">T.Cao Bằng</option>
+                      <option value="LCI">T.Lào Cai</option>
+                      <option value="BKN">T.Bắc Kạn</option>
+                      <option value="LSN">T.Lạng Sơn</option>
+                      <option value="TQG">T.Tuyên Quang</option>
+                      <option value="YBN">T.Yên Bái</option>
+                      <option value="TNN">T.Thái Nguyên</option>
+                      <option value="PHO">T.Phú Thọ</option>
+                      <option value="BGG">T.Bắc Giang</option>
+                      <option value="QNH">T.Quảng Ninh</option>
+                      <option value="LCU">T.Lai Châu</option>
+                      <option value="SLA">T.Sơn La</option>
+                      <option value="HBH">T.Hòa Bình</option>
+                      <option value="THA">T.Thanh Hóa</option>
+                      <option value="NAN">T.Nghệ An</option>
+                      <option value="HTH">T.Hà Tĩnh</option>
+                      <option value="QBH">T.Quảng Bình</option>
+                      <option value="QTI">T.Quảng Trị</option>
+                      <option value="HUE">T.Thừa Thiên - Huế</option>
+                      <option value="QNM">T.Quảng Nam</option>
+                      <option value="QNI">T.Quảng Ngãi</option>
+                      <option value="BDH">T.Bình Ðịnh</option>
+                      <option value="PYN">T.Phú Yên</option>
+                      <option value="KHA">T.Khánh Hòa</option>
+                      <option value="KTM">T.Kon Tum</option>
+                      <option value="GLI">T.Gia Lai</option>
+                      <option value="DLK">T.Đăk Lăk</option>
+                      <option value="LDG">T.Lâm Ðồng</option>
+                      <option value="NTN">T.Ninh Thuận</option>
+                      <option value="BPC">T.Bình Phước</option>
+                      <option value="TNH">T.Tây Ninh</option>
+                      <option value="BDG">T.Bình Dương</option>
+                      <option value="DNI">T.Đồng Nai</option>
+                      <option value="BTN">T.Bình Thuận</option>
+                      <option value="VTU">T.Bà Rịa - Vũng Tàu</option>
+                      <option value="LAN">T.Long An</option>
+                      <option value="DTP">T.Đồng Tháp</option>
+                      <option value="AGG">T.An Giang</option>
+                      <option value="VLG">T.Vĩnh Long</option>
+                      <option value="BTE">T.Bến Tre</option>
+                      <option value="KGG">T.Kiên Giang</option>
+                      <option value="TVH">T.Trà Vinh</option>
+                      <option value="STG">T.Sóc Trăng</option>
+                      <option value="BLU">T.Bạc Liêu</option>
+                      <option value="CMU">T.Cà Mau</option>
+                      <option value="DBN">T.Điện Biên</option>
+                  </select>
+                  <select class="form-select">
+                      <option value="" data-province="">Select District</option>
+                      <option data-province="DKG" value="6430"> H.Tuy Đức</option>
+                      <option data-province="DKG" value="6410"> TP.Gia Nghĩa</option>
+                      <option data-province="DKG" value="6424"> H.Cư Jút</option>
+                      <option data-province="DKG" value="6421"> H.Krông Nô</option>
+                      <option data-province="DKG" value="6416"> H.Đắk Song</option>
+                      <option data-province="DKG" value="6418"> H.Đắk Mil</option>
+                      <option data-province="DKG" value="6413"> H.Đắk Rlấp</option>
+                      <option data-province="VPC" value="2828"> H.Huyên Yên Lạc</option>
+                      <option data-province="VPC" value="2815"> H.Tam Dương</option>
+                      <option data-province="VPC" value="2812"> H.Bình Xuyên</option>
+                      <option data-province="VPC" value="2838"> H.Sông Lô</option>
+                      <option data-province="VPC" value="2834"> TP.Phúc Yên</option>
+                      <option data-province="VPC" value="2810"> TP.Vĩnh Yên</option>
+                      <option data-province="VPC" value="2836"> H.Huỵên Tam Đảo</option>
+                      <option data-province="VPC" value="2823"> H.Vĩnh Tường</option>
+                      <option data-province="VPC" value="2818"> H.Lập Thạch</option>
+                      <option data-province="BNH" value="2235"> H.Lương Tài</option>
+                      <option data-province="BNH" value="2210"> TP.Bắc Ninh</option>
+                      <option data-province="BNH" value="2232"> H.Gia Bình</option>
+                      <option data-province="BNH" value="2224"> H.Thuận Thành</option>
+                      <option data-province="BNH" value="2228"> H.Quế Võ</option>
+                      <option data-province="BNH" value="2214"> H.Yên Phong</option>
+                      <option data-province="BNH" value="2218"> H.Tiên Du</option>
+                      <option data-province="BNH" value="2221"> TX.Từ Sơn</option>
+                      <option data-province="HDG" value="1710"> TP.Hải Dương</option>
+                      <option data-province="HDG" value="1761"> H.Ninh Giang</option>
+                      <option data-province="HDG" value="1765"> H.Tứ Kỳ</option>
+                      <option data-province="HDG" value="1727"> H.Thanh Hà</option>
+                      <option data-province="HDG" value="1747"> H.Cẩm Giàng</option>
+                      <option data-province="HDG" value="1758"> H.Thanh Miện</option>
+                      <option data-province="HDG" value="1734"> H.Nam Sách</option>
+                      <option data-province="HDG" value="1738"> TX.Kinh Môn</option>
+                      <option data-province="HDG" value="1742"> TP.Chí Linh</option>
+                      <option data-province="HDG" value="1751"> H.Bình Giang</option>
+                      <option data-province="HDG" value="1754"> H.Gia Lộc</option>
+                      <option data-province="HDG" value="1731"> H.Kim Thành</option>
+                      <option data-province="HYN" value="1616"> H.Phù Cừ</option>
+                      <option data-province="HYN" value="1635"> H.Văn Lâm</option>
+                      <option data-province="HYN" value="1625"> H.Khoái Châu</option>
+                      <option data-province="HYN" value="1618"> H.Ân Thi</option>
+                      <option data-province="HYN" value="1638"> H.Văn Giang</option>
+                      <option data-province="HYN" value="1632"> TX.Mỹ Hào</option>
+                      <option data-province="HYN" value="1622"> H.Kim Động</option>
+                      <option data-province="HYN" value="1613"> H.Tiên Lữ</option>
+                      <option data-province="HYN" value="1629"> H.Yên Mỹ</option>
+                      <option data-province="HYN" value="1610"> TP.Hưng Yên</option>
+                      <option data-province="HNM" value="4023"> TX.Duy Tiên</option>
+                      <option data-province="HNM" value="4027"> H.Kim Bảng</option>
+                      <option data-province="HNM" value="4015"> H.Lý Nhân</option>
+                      <option data-province="HNM" value="4010"> TP.Phủ Lý</option>
+                      <option data-province="HNM" value="4033"> H.Thanh Liêm</option>
+                      <option data-province="HNM" value="4038"> H.Bình Lục</option>
+                      <option data-province="NDH" value="4246"> H.Nam Trực</option>
+                      <option data-province="NDH" value="4251"> H.Trực Ninh</option>
+                      <option data-province="NDH" value="4239"> H.Mỹ Lộc</option>
+                      <option data-province="NDH" value="4278"> H.Giao Thủy</option>
+                      <option data-province="NDH" value="4265"> H.Nghĩa Hưng</option>
+                      <option data-province="NDH" value="4210"> TP.Nam Định</option>
+                      <option data-province="NDH" value="4282"> H.Hải Hậu</option>
+                      <option data-province="NDH" value="4242"> H.Vụ Bản</option>
+                      <option data-province="NDH" value="4271"> H.Xuân Trường</option>
+                      <option data-province="NDH" value="4257"> H.Ý Yên</option>
+                      <option data-province="TBH" value="4128"> H.Thái Thụy</option>
+                      <option data-province="TBH" value="4149"> H.Vũ Thư</option>
+                      <option data-province="TBH" value="4136"> H.Quỳnh Phụ</option>
+                      <option data-province="TBH" value="4142"> H.Hưng Hà</option>
+                      <option data-province="TBH" value="4110"> TP.Thái Bình</option>
+                      <option data-province="TBH" value="4121"> H.Đông Hưng</option>
+                      <option data-province="TBH" value="4162"> H.Tiền Hải</option>
+                      <option data-province="TBH" value="4155"> H.Kiến Xương</option>
+                      <option data-province="NBH" value="4310"> TP.Ninh Bình</option>
+                      <option data-province="NBH" value="4339"> H.Kim Sơn</option>
+                      <option data-province="NBH" value="4326"> H.Nho Quan</option>
+                      <option data-province="NBH" value="4322"> H.Gia Viễn</option>
+                      <option data-province="NBH" value="4336"> H.Yên Mô</option>
+                      <option data-province="NBH" value="4345"> H.Yên Khánh</option>
+                      <option data-province="NBH" value="4319"> H.Hoa Lư</option>
+                      <option data-province="NBH" value="4333"> TP.Tam Điệp</option>
+                      <option data-province="HGG" value="3139"> H.Hoàng Su Phì</option>
+                      <option data-province="HGG" value="3131"> H.Quản Bạ</option>
+                      <option data-province="HGG" value="3134"> H.Vị Xuyên</option>
+                      <option data-province="HGG" value="3112"> H.Bắc Mê</option>
+                      <option data-province="HGG" value="3144"> H.Xín Mần</option>
+                      <option data-province="HGG" value="3148"> H.Bắc Quang</option>
+                      <option data-province="HGG" value="3110"> TP.Hà Giang</option>
+                      <option data-province="HGG" value="3126"> H.Đồng Văn</option>
+                      <option data-province="HGG" value="3115"> H.Yên Minh</option>
+                      <option data-province="HGG" value="3121"> H.Mèo Vạc</option>
+                      <option data-province="HGG" value="3152"> H.Quang Bình</option>
+                      <option data-province="CBG" value="2771"> H.Thạch An</option>
+                      <option data-province="CBG" value="2722"> H.Hạ Lang</option>
+                      <option data-province="CBG" value="2756"> H.Nguyên Bình</option>
+                      <option data-province="CBG" value="2762"> H.Bảo Lạc</option>
+                      <option data-province="CBG" value="2778"> H.Phục Hòa</option>
+                      <option data-province="CBG" value="2727"> H.Trùng Khánh</option>
+                      <option data-province="CBG" value="2752"> H.Thông Nông</option>
+                      <option data-province="CBG" value="2767"> H.Bảo Lâm</option>
+                      <option data-province="CBG" value="2710"> TX.Cao Bằng</option>
+                      <option data-province="CBG" value="2746"> H.Hà Quảng</option>
+                      <option data-province="CBG" value="2734"> H.Trà Lĩnh</option>
+                      <option data-province="CBG" value="2738"> H.Hòa An</option>
+                      <option data-province="CBG" value="2715"> H.Quảng Uyên</option>
+                      <option data-province="LCI" value="3334"> TP.Lào Cai</option>
+                      <option data-province="LCI" value="3331"> TX.Sa Pa</option>
+                      <option data-province="LCI" value="3319"> H.Mường Khương</option>
+                      <option data-province="LCI" value="3325"> H.Bát Xát</option>
+                      <option data-province="LCI" value="3347"> H.Văn Bàn</option>
+                      <option data-province="QNM" value="5620"> H.Tiên Phước</option>
+                      <option data-province="QNM" value="5642"> TX.Điện Bàn</option>
+                      <option data-province="QNM" value="5630"> H.Quế Sơn</option>
+                      <option data-province="QNM" value="5611"> H.Nông Sơn</option>
+                      <option data-province="QNM" value="5623"> H.Núi Thành</option>
+                      <option data-province="QNM" value="5638"> TP.Hội An</option>
+                      <option data-province="QNM" value="5653"> H.Nam Trà My</option>
+                      <option data-province="QNM" value="5634"> H.Hiệp Đức</option>
+                      <option data-province="QNM" value="5627"> H.Duy Xuyên</option>
+                      <option data-province="QNI" value="5729"> H.Nghĩa Hành</option>
+                      <option data-province="QNI" value="5740"> H.Tư Nghĩa</option>
+                      <option data-province="QNI" value="5731"> H.Minh Long</option>
+                      <option data-province="QNI" value="5718"> H.Bình Sơn</option>
+                      <option data-province="QNI" value="5710"> TP.Quảng Ngãi</option>
+                      <option data-province="QNI" value="5738"> H.Mộ Đức</option>
+                      <option data-province="QNI" value="5722"> H.Trà Bồng</option>
+                      <option data-province="QNI" value="5724"> H.Tây Trà</option>
+                      <option data-province="QNI" value="5714"> H.Lý Sơn</option>
+                      <option data-province="QNI" value="5726"> H.Sơn Hà</option>
+                      <option data-province="QNI" value="5735"> TX.Đức Phổ</option>
+                      <option data-province="QNI" value="5715"> H.Sơn Tịnh</option>
+                      <option data-province="QNI" value="5732"> H.Ba Tơ</option>
+                      <option data-province="QNI" value="5728"> H.Sơn Tây</option>
+                      <option data-province="BDH" value="5942"> H.Huyên Tây Sơn</option>
+                      <option data-province="BDH" value="5936"> H.Hoài Ân</option>
+                      <option data-province="BDH" value="5945"> H.Vân Canh</option>
+                      <option data-province="BDH" value="5920"> TX.An Nhơn</option>
+                      <option data-province="BDH" value="5932"> H.Hoài Nhơn</option>
+                      <option data-province="BDH" value="5938"> H.An Lão</option>
+                      <option data-province="BDH" value="5940"> H.Vĩnh Thạnh</option>
+                      <option data-province="BDH" value="5917"> H.Tuy Phước</option>
+                      <option data-province="BDH" value="5928"> H.Phù Mỹ</option>
+                      <option data-province="BDH" value="5910"> TP.Qui Nhơn</option>
+                      <option data-province="BDH" value="5924"> H.Phù Cát</option>
+                      <option data-province="PYN" value="6219"> TX.Sông Cầu</option>
+                      <option data-province="PYN" value="6216"> H.Tuy An</option>
+                      <option data-province="PYN" value="6232"> H.Tây Hòa</option>
+                      <option data-province="PYN" value="6230"> H.Đông Hòa</option>
+                      <option data-province="PYN" value="6210"> TP.Tuy Hòa</option>
+                      <option data-province="PYN" value="6222"> H.Đồng Xuân</option>
+                      <option data-province="PYN" value="6234"> H.Phú Hòa</option>
+                      <option data-province="PYN" value="6224"> H.Sơn Hòa</option>
+                      <option data-province="PYN" value="6227"> H.Sông Hinh</option>
+                      <option data-province="KHA" value="6510"> TP.Nha Trang</option>
+                      <option data-province="KHA" value="6529"> TX.Ninh Hòa</option>
+                      <option data-province="KHA" value="6542"> H.Khánh Sơn</option>
+                      <option data-province="KHA" value="6544"> TP.Cam Ranh</option>
+                      <option data-province="KHA" value="6537"> H.Diên Khánh</option>
+                      <option data-province="KHA" value="6540"> H.Khánh Vĩnh</option>
+                      <option data-province="KHA" value="6548"> H.Trường Sa</option>
+                      <option data-province="KHA" value="6552"> H.Cam Lâm</option>
+                      <option data-province="KHA" value="6535"> H.Vạn Ninh</option>
+                      <option data-province="KTM" value="5822"> H.Đắk Hà</option>
+                      <option data-province="KTM" value="5835"> H.Sa Thầy</option>
+                      <option data-province="KTM" value="5837"> H.Tu Mơ Rông</option>
+                      <option data-province="KTM" value="5820"> H.Kon Plông</option>
+                      <option data-province="KTM" value="5810"> TP.Kon Tum</option>
+                      <option data-province="KTM" value="5825"> H.Đắk Tô</option>
+                      <option data-province="KTM" value="5830"> H.Ngọc Hồi</option>
+                      <option data-province="KTM" value="5818"> H.Kon Rẫy</option>
+                      <option data-province="KTM" value="5832"> H.Đắk Glei</option>
+                      <option data-province="KTM" value="5838"> H.Ia H'drai</option>
+                      <option data-province="GLI" value="6042"> H.Chư Prông</option>
+                      <option data-province="GLI" value="6060"> H.Krông Pa</option>
+                      <option data-province="GLI" value="6069"> H.Phú Thiện</option>
+                      <option data-province="GLI" value="6010"> TP.Pleiku</option>
+                      <option data-province="GLI" value="6017"> H.Đăk Đoa</option>
+                      <option data-province="GLI" value="6064"> H.Đăk Pơ</option>
+                      <option data-province="GLI" value="6034"> H.Ia Grai</option>
+                      <option data-province="GLI" value="6038"> H.Đức Cơ</option>
+                      <option data-province="GLI" value="6047"> H.Chư Sê</option>
+                      <option data-province="GLI" value="6026"> H.Kbang</option>
+                      <option data-province="GLI" value="6057"> H.Kông Chro</option>
+                      <option data-province="GLI" value="6021"> H.Mang Yang</option>
+                      <option data-province="GLI" value="6030"> H.Chư Păh</option>
+                      <option data-province="GLI" value="6066"> H.Ia Pa</option>
+                      <option data-province="GLI" value="6067"> H.Chư Pưh</option>
+                      <option data-province="GLI" value="6024"> TX.An Khê</option>
+                      <option data-province="GLI" value="6053"> TX.Ayun Pa</option>
+                      <option data-province="DLK" value="6347"> H.Krông Búk</option>
+                      <option data-province="DLK" value="6352"> H.Krông Năng</option>
+                      <option data-province="DLK" value="6390"> TX.Buôn Hồ</option>
+                      <option data-province="DLK" value="6334"> H.Ea Kar</option>
+                      <option data-province="DLK" value="6310"> TP.Buôn Ma Thuột</option>
+                      <option data-province="DLK" value="6366"> H.Krông A Na</option>
+                      <option data-province="DLK" value="6374"> H.Lắk</option>
+                      <option data-province="DLK" value="6343"> H.Cư M'gar</option>
+                      <option data-province="DLK" value="6360"> H.Buôn Đôn</option>
+                      <option data-province="DLK" value="6363"> H.Ea Súp</option>
+                      <option data-province="DLK" value="6370"> H.Krông Bông</option>
+                      <option data-province="DLK" value="6339"> H.M'đrắk</option>
+                      <option data-province="DLK" value="6356"> H.Ea H'leo</option>
+                      <option data-province="DLK" value="6380"> H.Cư Kuin</option>
+                      <option data-province="DLK" value="6327"> H.Krông Pắk</option>
+                      <option data-province="LDG" value="6727"> H.Lạc Dương</option>
+                      <option data-province="LDG" value="6743"> H.Bảo Lâm</option>
+                      <option data-province="LDG" value="6755"> H.Cát Tiên</option>
+                      <option data-province="LDG" value="6737"> H.Di Linh</option>
+                      <option data-province="LDG" value="6758"> H.Đạ Huoai</option>
+                      <option data-province="LDG" value="6728"> H.Lâm Hà</option>
+                      <option data-province="LDG" value="6710"> TP.Đà Lạt</option>
+                      <option data-province="LDG" value="6752"> H.Đạ Tẻh</option>
+                      <option data-province="LDG" value="6760"> H.Đam Rông</option>
+                      <option data-province="LDG" value="6747"> TP.Bảo Lộc</option>
+                      <option data-province="LDG" value="6725"> H.Đơn Dương</option>
+                      <option data-province="LDG" value="6733"> H.Đức Trọng</option>
+                      <option data-province="LCI" value="3310"> H.Bắc Hà</option>
+                      <option data-province="LCI" value="3316"> H.Si Ma Cai</option>
+                      <option data-province="LCI" value="3353"> H.Bảo Yên</option>
+                      <option data-province="LCI" value="3341"> H.Bảo Thắng</option>
+                      <option data-province="BKN" value="2638"> H.Chợ Mới</option>
+                      <option data-province="BKN" value="2632"> H.Chợ Đồn</option>
+                      <option data-province="BKN" value="2623"> H.Ngân Sơn</option>
+                      <option data-province="BKN" value="2610"> TP.Bắc Kạn</option>
+                      <option data-province="BKN" value="2613"> H.Na Rì</option>
+                      <option data-province="BKN" value="2619"> H.Bạch Thông</option>
+                      <option data-province="BKN" value="2627"> H.Ba Bể</option>
+                      <option data-province="BKN" value="2643"> H.Pắc Nặm</option>
+                      <option data-province="LSN" value="2439"> H.Văn Quan</option>
+                      <option data-province="LSN" value="2461"> H.Hữu Lũng</option>
+                      <option data-province="LSN" value="2456"> H.Chi Lăng</option>
+                      <option data-province="LSN" value="2450"> H.Bắc Sơn</option>
+                      <option data-province="LSN" value="2425"> H.Văn Lãng</option>
+                      <option data-province="LSN" value="2468"> H.Lộc Bình</option>
+                      <option data-province="LSN" value="2418"> H.Cao Lộc</option>
+                      <option data-province="LSN" value="2475"> H.Đình Lập</option>
+                      <option data-province="LSN" value="2445"> H.Bình Gia</option>
+                      <option data-province="LSN" value="2410"> TP.Lạng Sơn</option>
+                      <option data-province="LSN" value="2431"> H.Tràng Định</option>
+                      <option data-province="TQG" value="3010"> TP.Tuyên Quang</option>
+                      <option data-province="TQG" value="3015"> H.Yên Sơn</option>
+                      <option data-province="TQG" value="3028"> H.Sơn Dương</option>
+                      <option data-province="TQG" value="3038"> H.Chiêm Hóa</option>
+                      <option data-province="TQG" value="3048"> H.Na Hang</option>
+                      <option data-province="TQG" value="3056"> H.Lâm Bình</option>
+                      <option data-province="TQG" value="3055"> H.Hàm Yên</option>
+                      <option data-province="YBN" value="3247"> H.Văn Chấn</option>
+                      <option data-province="YBN" value="3240"> H.Văn Yên</option>
+                      <option data-province="YBN" value="3219"> H.Yên Bình</option>
+                      <option data-province="YBN" value="3259"> H.Trạm Tấu</option>
+                      <option data-province="YBN" value="3226"> H.Lục Yên</option>
+                      <option data-province="YBN" value="3256"> TX.Nghĩa Lộ</option>
+                      <option data-province="YBN" value="3261"> H.Mù Căng Chải</option>
+                      <option data-province="YBN" value="3233"> H.Trấn Yên</option>
+                      <option data-province="YBN" value="3210"> TP.Yên Bái</option>
+                      <option data-province="TNN" value="2568"> TX.Phổ Yên</option>
+                      <option data-province="TNN" value="2538"> H.Phú Lương</option>
+                      <option data-province="TNN" value="2532"> H.Võ Nhai</option>
+                      <option data-province="TNN" value="2510"> TP.Thái Nguyên</option>
+                      <option data-province="TNN" value="2575"> H.Phú Bình</option>
+                      <option data-province="TNN" value="2525"> H.Đồng Hỷ</option>
+                      <option data-province="TNN" value="2553"> H.Đại Từ</option>
+                      <option data-province="TNN" value="2544"> H.Định Hóa</option>
+                      <option data-province="TNN" value="2564"> TP.Sông Công</option>
+                      <option data-province="PHO" value="2935"> H.Thi Xã Phú Thọ</option>
+                      <option data-province="PHO" value="2956"> H.Thanh Ba</option>
+                      <option data-province="PHO" value="2910"> TP.Việt Trì</option>
+                      <option data-province="PHO" value="2949"> H.Đoan Hùng</option>
+                      <option data-province="PHO" value="2945"> H.Thanh Thủy</option>
+                      <option data-province="PHO" value="2982"> H.Thanh Sơn</option>
+                      <option data-province="PHO" value="2994"> H.Tân Sơn</option>
+                      <option data-province="PHO" value="2976"> H.Yên Lập</option>
+                      <option data-province="PHO" value="2970"> H.Cẩm Khê</option>
+                      <option data-province="PHO" value="2940"> H.Tam Nông</option>
+                      <option data-province="PHO" value="2929"> H.Lâm Thao</option>
+                      <option data-province="PHO" value="2962"> H.Hạ Hòa</option>
+                      <option data-province="PHO" value="2923"> H.Phù Ninh</option>
+                      <option data-province="BGG" value="2310"> TP.Bắc Giang</option>
+                      <option data-province="BGG" value="2366"> H.Hiệp Hòa</option>
+                      <option data-province="BGG" value="2361"> H.Việt Yên</option>
+                      <option data-province="BGG" value="2347"> H.Yên Thế</option>
+                      <option data-province="BGG" value="2330"> H.Lục Ngạn</option>
+                      <option data-province="BGG" value="2340"> H.Lạng Giang</option>
+                      <option data-province="BGG" value="2353"> H.Tân Yên</option>
+                      <option data-province="BGG" value="2318"> H.Lục Nam</option>
+                      <option data-province="BGG" value="2325"> H.Sơn Động</option>
+                      <option data-province="BGG" value="2372"> H.Yên Dũng</option>
+                      <option data-province="QNH" value="2056"> H.Tiên Yên</option>
+                      <option data-province="QNH" value="2079"> TP.Uông Bí</option>
+                      <option data-province="QNH" value="2075"> TX.Quảng Yên</option>
+                      <option data-province="QNH" value="2086"> TX.Đông Triều</option>
+                      <option data-province="QNH" value="2059"> H.Ba Chẽ</option>
+                      <option data-province="QNH" value="2061"> H.Bình Liêu</option>
+                      <option data-province="QNH" value="2063"> H.Đầm Hà</option>
+                      <option data-province="QNH" value="2053"> H.Vân Đồn</option>
+                      <option data-province="QNH" value="2032"> TP.Cẩm Phả</option>
+                      <option data-province="QNH" value="2055"> H.Cô Tô</option>
+                      <option data-province="QNH" value="2068"> TP.Móng Cái</option>
+                      <option data-province="QNH" value="2065"> H.Hải Hà</option>
+                      <option data-province="QNH" value="2010"> TP.Hạ Long</option>
+                      <option data-province="QNH" value="2072"> H.Hoành Bồ</option>
+                      <option data-province="LCU" value="3911"> H.Tam Đường</option>
+                      <option data-province="LCU" value="3915"> H.Phong Thổ</option>
+                      <option data-province="LCU" value="3923"> H.Sìn Hồ</option>
+                      <option data-province="LCU" value="3929"> H.Than Uyên</option>
+                      <option data-province="LCU" value="3919"> H.Mường Tè</option>
+                      <option data-province="LCU" value="3940"> H.Tân Uyên</option>
+                      <option data-province="LCU" value="3924"> H.Nậm Nhùn</option>
+                      <option data-province="LCU" value="3910"> TP.Lai Châu</option>
+                      <option data-province="SLA" value="3653"> H.Quỳnh Nhai</option>
+                      <option data-province="SLA" value="3647"> H.Mường La</option>
+                      <option data-province="SLA" value="3668"> H.Sông Mã</option>
+                      <option data-province="SLA" value="3610"> TP.Sơn La</option>
+                      <option data-province="SLA" value="3615"> H.Mai Sơn</option>
+                      <option data-province="SLA" value="3636"> H.Phù Yên</option>
+                      <option data-province="SLA" value="3657"> H.Thuận Châu</option>
+                      <option data-province="SLA" value="3628"> H.Mộc Châu</option>
+                      <option data-province="SLA" value="3624"> H.Yên Châu</option>
+                      <option data-province="SLA" value="3611"> H.Vân Hồ</option>
+                      <option data-province="SLA" value="3643"> H.Bắc Yên</option>
+                      <option data-province="SLA" value="3677"> H.Sốp Cộp</option>
+                      <option data-province="HBH" value="3515"> H.Kỳ Sơn</option>
+                      <option data-province="HBH" value="3558"> H.Lạc Thủy</option>
+                      <option data-province="HBH" value="3551"> H.Kim Bôi</option>
+                      <option data-province="HBH" value="3527"> H.Tân Lạc</option>
+                      <option data-province="HBH" value="3517"> H.Lương Sơn</option>
+                      <option data-province="HBH" value="3548"> H.Yên Thủy</option>
+                      <option data-province="HBH" value="3537"> H.Cao Phong</option>
+                      <option data-province="HBH" value="3522"> H.Đà Bắc</option>
+                      <option data-province="HBH" value="3539"> H.Lạc Sơn</option>
+                      <option data-province="HBH" value="3510"> TP.Hòa Bình</option>
+                      <option data-province="HBH" value="3533"> H.Mai Châu</option>
+                      <option data-province="THA" value="4516"> H.Ngọc Lặc</option>
+                      <option data-province="THA" value="4422"> H.Hoằng Hóa</option>
+                      <option data-province="THA" value="4529"> H.Quan Sơn</option>
+                      <option data-province="THA" value="4470"> H.Thạch Thành</option>
+                      <option data-province="THA" value="4555"> H.Quảng Xương</option>
+                      <option data-province="THA" value="4437"> H.Nga Sơn</option>
+                      <option data-province="THA" value="4452"> H.Đông Sơn</option>
+                      <option data-province="THA" value="4467"> H.Vĩnh Lộc</option>
+                      <option data-province="THA" value="4523"> H.Lang Chánh</option>
+                      <option data-province="THA" value="4410"> TP.Thanh Hóa</option>
+                      <option data-province="THA" value="4487"> H.Triệu Sơn</option>
+                      <option data-province="THA" value="4538"> H.Nông Cống</option>
+                      <option data-province="THA" value="4564"> H.Tĩnh Gia</option>
+                      <option data-province="THA" value="4534"> H.Thường Xuân</option>
+                      <option data-province="THA" value="4551"> H.Như Xuân</option>
+                      <option data-province="THA" value="4431"> H.Hậu Lộc</option>
+                      <option data-province="THA" value="4546"> H.Như Thanh</option>
+                      <option data-province="THA" value="4444"> H.Hà Trung</option>
+                      <option data-province="THA" value="4532"> H.Mường Lát</option>
+                      <option data-province="THA" value="4476"> H.Cẩm Thủy</option>
+                      <option data-province="THA" value="4526"> H.Quan Hóa</option>
+                      <option data-province="THA" value="4481"> H.Bá Thước</option>
+                      <option data-province="THA" value="4462"> H.Yên Định</option>
+                      <option data-province="THA" value="4497"> H.Thọ Xuân</option>
+                      <option data-province="THA" value="4449"> TX.Bỉm Sơn</option>
+                      <option data-province="THA" value="4456"> H.Thiệu Hóa</option>
+                      <option data-province="THA" value="4420"> TP.Sầm Sơn</option>
+                      <option data-province="NAN" value="4724"> H.Anh Sơn</option>
+                      <option data-province="NAN" value="4730"> H.Con Cuông</option>
+                      <option data-province="NAN" value="4743"> H.Hưng Nguyên</option>
+                      <option data-province="NAN" value="4716"> TX.Thái Hòa</option>
+                      <option data-province="NAN" value="4697"> H.Quỳ Châu</option>
+                      <option data-province="NAN" value="4624"> TX.Cửa Lò</option>
+                      <option data-province="NAN" value="4733"> H.Tương Dương</option>
+                      <option data-province="NAN" value="4711"> H.Quế Phong</option>
+                      <option data-province="NAN" value="4684"> H.Tân Kỳ</option>
+                      <option data-province="NAN" value="4638"> H.Diễn Châu</option>
+                      <option data-province="NAN" value="4738"> H.Kỳ Sơn</option>
+                      <option data-province="NAN" value="4610"> TP.Vinh</option>
+                      <option data-province="NAN" value="4714"> H.Đô Lương</option>
+                      <option data-province="NAN" value="4626"> H.Nghi Lộc</option>
+                      <option data-province="NAN" value="4662"> H.Yên Thành</option>
+                      <option data-province="NAN" value="4649"> H.Quỳnh Lưu</option>
+                      <option data-province="NAN" value="4749"> H.Nam Đàn</option>
+                      <option data-province="NAN" value="4674"> H.Nghĩa Đàn</option>
+                      <option data-province="NAN" value="4758"> TX.Hoàng Mai</option>
+                      <option data-province="NAN" value="4757"> H.Thanh Chương</option>
+                      <option data-province="NAN" value="4690"> H.Quỳ Hợp</option>
+                      <option data-province="HTH" value="4866"> H.Vũ Quang</option>
+                      <option data-province="HTH" value="4849"> H.Đức Thọ</option>
+                      <option data-province="HTH" value="4829"> H.Can Lộc</option>
+                      <option data-province="HTH" value="4891"> H.Lộc Hà</option>
+                      <option data-province="HTH" value="4844"> H.Nghi Xuân</option>
+                      <option data-province="HTH" value="4856"> H.Hương Sơn</option>
+                      <option data-province="HTH" value="4869"> H.Hương Khê</option>
+                      <option data-province="HTH" value="4876"> H.Cẩm Xuyên</option>
+                      <option data-province="HTH" value="4810"> TP.Hà Tĩnh</option>
+                      <option data-province="HTH" value="4819"> H.Thạch Hà</option>
+                      <option data-province="HTH" value="4892"> TX.Kỳ Anh</option>
+                      <option data-province="HTH" value="4884"> H.Kỳ Anh</option>
+                      <option data-province="HTH" value="4837"> TX.Hồng Lĩnh</option>
+                      <option data-province="QBH" value="5139"> H.Lệ Thủy</option>
+                      <option data-province="QBH" value="5128"> H.Tuyên Hóa</option>
+                      <option data-province="QBH" value="5110"> TP.Đồng Hới</option>
+                      <option data-province="QBH" value="5122"> H.Quảng Trạch</option>
+                      <option data-province="QBH" value="5132"> H.Minh Hóa</option>
+                      <option data-province="QBH" value="5136"> H.Quảng Ninh</option>
+                      <option data-province="QBH" value="5115"> H.Bố Trạch</option>
+                      <option data-province="QBH" value="5140"> TX.Ba Đồn</option>
+                      <option data-province="QTI" value="5233"> H.Triệu Phong</option>
+                      <option data-province="QTI" value="5210"> TP.Đông Hà</option>
+                      <option data-province="QTI" value="5226"> H.Hướng Hóa</option>
+                      <option data-province="QTI" value="5237"> TX.Quảng Trị</option>
+                      <option data-province="QTI" value="5223"> H.Cam Lộ</option>
+                      <option data-province="QTI" value="5244"> H.Cồn Cỏ</option>
+                      <option data-province="QTI" value="5230"> H.Đa Krông</option>
+                      <option data-province="QTI" value="5238"> H.Hải Lăng</option>
+                      <option data-province="QTI" value="5218"> H.Vĩnh Linh</option>
+                      <option data-province="QTI" value="5214"> H.Gio Linh</option>
+                      <option data-province="HUE" value="5367"> H.Phú Vang</option>
+                      <option data-province="HUE" value="5371"> H.Phú Lộc</option>
+                      <option data-province="HUE" value="5361"> TX.Hương Thủy</option>
+                      <option data-province="HUE" value="5357"> H.A Lưới</option>
+                      <option data-province="HUE" value="5349"> H.Phong Điền</option>
+                      <option data-province="HUE" value="5346"> H.Quảng Điền</option>
+                      <option data-province="HUE" value="5364"> H.Nam Đông</option>
+                      <option data-province="HUE" value="5353"> TX.Hương Trà</option>
+                      <option data-province="HUE" value="5310"> TP.Huế</option>
+                      <option data-province="QNM" value="5662"> H.Phú Ninh</option>
+                      <option data-province="QNM" value="5651"> H.Phước Sơn</option>
+                      <option data-province="QNM" value="5647"> H.Đại Lộc</option>
+                      <option data-province="QNM" value="5660"> H.Nam Giang</option>
+                      <option data-province="QNM" value="5616"> H.Thăng Bình</option>
+                      <option data-province="QNM" value="5610"> TP.Tam Kỳ</option>
+                      <option data-province="QNM" value="5655"> H.Đông Giang</option>
+                      <option data-province="QNM" value="5636"> H.Bắc Trà My</option>
+                      <option data-province="QNM" value="5658"> H.Tây Giang</option>
+                      <option data-province="HNI" value="1100"> Q.Hoàn Kiếm</option>
+                      <option data-province="HNI" value="1547"> H.Ba Vì</option>
+                      <option data-province="HNI" value="1529"> H.Hoài Đức</option>
+                      <option data-province="HNI" value="1270"> Q.Hoàng Mai</option>
+                      <option data-province="HNI" value="1553"> H.Thạch Thất</option>
+                      <option data-province="HNI" value="1561"> H.Chương Mỹ</option>
+                      <option data-province="HNI" value="1390"> H.Sóc Sơn</option>
+                      <option data-province="HNI" value="1310"> H.Gia Lâm</option>
+                      <option data-province="HNI" value="1120"> Q.Hai Bà Trưng</option>
+                      <option data-province="HNI" value="1240"> Q.Tây Hồ</option>
+                      <option data-province="HNI" value="1420"> H.Mê Linh</option>
+                      <option data-province="HNI" value="1340"> H.Thanh Trì</option>
+                      <option data-province="HNI" value="1571"> H.Ứng Hòa</option>
+                      <option data-province="HNI" value="1220"> Q.Cầu Giấy</option>
+                      <option data-province="HNI" value="1536"> H.Phúc Thọ</option>
+                      <option data-province="HNI" value="1567"> H.Thanh Oai</option>
+                      <option data-province="HNI" value="1576"> H.Mỹ Đức</option>
+                      <option data-province="HNI" value="1540"> TX.Sơn Tây</option>
+                      <option data-province="HNI" value="1533"> H.Đan Phượng</option>
+                      <option data-province="HNI" value="1250"> Q.Long Biên</option>
+                      <option data-province="HNI" value="1557"> H.Quốc Oai</option>
+                      <option data-province="HNI" value="1180"> Q.Ba Đình</option>
+                      <option data-province="HNI" value="1200"> Q.Thanh Xuân</option>
+                      <option data-province="HNI" value="1150"> Q.Đống Đa</option>
+                      <option data-province="HNI" value="1260"> Q.Nam Từ Liêm</option>
+                      <option data-province="HNI" value="1280"> Q.Bắc Từ Liêm</option>
+                      <option data-province="HNI" value="1580"> H.Phú Xuyên</option>
+                      <option data-province="HNI" value="1360"> H.Đông Anh</option>
+                      <option data-province="HNI" value="1510"> Q.Hà Đông</option>
+                      <option data-province="HNI" value="1585"> H.Thường Tín</option>
+                      <option data-province="HCM" value="7460"> Q.6</option>
+                      <option data-province="HCM" value="7480"> Q.5</option>
+                      <option data-province="HCM" value="7220"> Q.3</option>
+                      <option data-province="HCM" value="7360"> Q.Tân Bình</option>
+                      <option data-province="HCM" value="7330"> H.Củ Chi</option>
+                      <option data-province="HCM" value="7580"> H.Nhà Bè</option>
+                      <option data-province="HCM" value="7400"> Q.10</option>
+                      <option data-province="HCM" value="7560"> Q.7</option>
+                      <option data-province="HCM" value="7290"> Q.12</option>
+                      <option data-province="HCM" value="7150"> Q.9</option>
+                      <option data-province="HCM" value="7590"> H.Cần Giờ</option>
+                      <option data-province="HCM" value="7100"> Q.1</option>
+                      <option data-province="HCM" value="7270"> Q.Gò Vấp</option>
+                      <option data-province="HCM" value="7430"> Q.11</option>
+                      <option data-province="HCM" value="7620"> Q.Bình Tân</option>
+                      <option data-province="HCM" value="7510"> Q.8</option>
+                      <option data-province="HCM" value="7540"> Q.4</option>
+                      <option data-province="HCM" value="7380"> H.Bình Chánh</option>
+                      <option data-province="HCM" value="7200"> Q.Thủ Đức</option>
+                      <option data-province="HCM" value="7170"> Q.Bình Thạnh</option>
+                      <option data-province="HCM" value="7250"> Q.Phú Nhuận</option>
+                      <option data-province="HCM" value="7130"> Q.2</option>
+                      <option data-province="HCM" value="7600"> Q.Tân Phú</option>
+                      <option data-province="HCM" value="7310"> H.Hóc Môn</option>
+                      <option data-province="HPG" value="1810"> Q.Hồng Bàng</option>
+                      <option data-province="HPG" value="1871"> Q.Đồ Sơn</option>
+                      <option data-province="HPG" value="1836"> Q.Lê Chân</option>
+                      <option data-province="HPG" value="1848"> H.An Dương</option>
+                      <option data-province="HPG" value="1872"> H.Đảo Bạch Long Vĩ</option>
+                      <option data-province="HPG" value="1867"> H.Kiến Thụy</option>
+                      <option data-province="HPG" value="1890"> Q.Dương Kinh</option>
+                      <option data-province="HPG" value="1853"> H.An Lão</option>
+                      <option data-province="HPG" value="1862"> H.Vĩnh Bảo</option>
+                      <option data-province="HPG" value="1851"> Q.Kiến An</option>
+                      <option data-province="HPG" value="1891"> H.Đảo Cát Hải</option>
+                      <option data-province="HPG" value="1830"> H.Thủy Nguyên</option>
+                      <option data-province="HPG" value="1818"> Q.Ngô Quyền</option>
+                      <option data-province="HPG" value="1856"> H.Tiên Lãng</option>
+                      <option data-province="HPG" value="1875"> Q.Hải An</option>
+                      <option data-province="DNG" value="5574"> Q.Cẩm Lệ</option>
+                      <option data-province="DNG" value="5542"> Q.Thanh Khê</option>
+                      <option data-province="DNG" value="5568"> Q.Ngũ Hành Sơn</option>
+                      <option data-province="DNG" value="5510"> Q.Hải Châu</option>
+                      <option data-province="DNG" value="5533"> Q.Sơn Trà</option>
+                      <option data-province="DNG" value="5557"> Q.Liên Chiểu</option>
+                      <option data-province="DNG" value="5573"> H.Hoàng Sa</option>
+                      <option data-province="DNG" value="5575"> H.Điện Bàn</option>
+                      <option data-province="DNG" value="5564"> H.Hòa Vang</option>
+                      <option data-province="CTO" value="9040"> Q.Ô Môn</option>
+                      <option data-province="CTO" value="9060"> H.Thới Lai</option>
+                      <option data-province="CTO" value="9010"> Q.Ninh Kiều</option>
+                      <option data-province="CTO" value="9042"> Q.Thốt Nốt</option>
+                      <option data-province="CTO" value="9050"> H.Vĩnh Thạnh</option>
+                      <option data-province="CTO" value="9044"> H.Phong Điền</option>
+                      <option data-province="CTO" value="9036"> Q.Cái Răng</option>
+                      <option data-province="CTO" value="9046"> H.Cờ Đỏ</option>
+                      <option data-province="CTO" value="9028"> Q.Bình Thủy</option>
+                      <option data-province="TGG" value="8648"> H.Tân Phú Đông</option>
+                      <option data-province="TGG" value="8620"> H.Chợ Gạo</option>
+                      <option data-province="TGG" value="8624"> H.Gò Công Tây</option>
+                      <option data-province="TGG" value="8647"> H.Cái Bè</option>
+                      <option data-province="TGG" value="8630"> H.Gò Công Đông</option>
+                      <option data-province="TGG" value="8634"> H.Châu Thành</option>
+                      <option data-province="TGG" value="8639"> H.Tân Phước</option>
+                      <option data-province="TGG" value="8627"> TX.Gò Công</option>
+                      <option data-province="TGG" value="8641"> H.Cai Lậy</option>
+                      <option data-province="TGG" value="8610"> TP.Mỹ Tho</option>
+                      <option data-province="HUG" value="9110"> TP.Vị Thanh</option>
+                      <option data-province="HUG" value="9125"> H.Châu Thành A</option>
+                      <option data-province="HUG" value="9115"> H.Long Mỹ</option>
+                      <option data-province="HUG" value="9127"> H.Châu Thành</option>
+                      <option data-province="HUG" value="9122"> H.Vị Thủy</option>
+                      <option data-province="HUG" value="9129"> TP.Ngã Bảy</option>
+                      <option data-province="HUG" value="9118"> H.Phụng Hiệp</option>
+                      <option data-province="HUG" value="9130"> TX.Long Mỹ</option>
+                      <option data-province="DKG" value="6427"> H.Đắk Glong</option>
+                      <option data-province="NTN" value="6629"> H.Bác Ái</option>
+                      <option data-province="NTN" value="6633"> H.Ninh Phước</option>
+                      <option data-province="NTN" value="6631"> H.Ninh Sơn</option>
+                      <option data-province="NTN" value="6630"> H.Thuận Nam</option>
+                      <option data-province="NTN" value="6626"> H.Ninh Hải</option>
+                      <option data-province="NTN" value="6636"> H.Thuận Bắc</option>
+                      <option data-province="NTN" value="6610"> TP.Phan Rang-tháp Chàm</option>
+                      <option data-province="BPC" value="8336"> H.Bù Đốp</option>
+                      <option data-province="BPC" value="8325"> H.Lộc Ninh</option>
+                      <option data-province="BPC" value="8310"> TP.Đồng Xoài</option>
+                      <option data-province="BPC" value="8315"> H.Đồng Phú</option>
+                      <option data-province="BPC" value="8341"> H.Hớn Quản</option>
+                      <option data-province="BPC" value="8329"> TX.Bình Long</option>
+                      <option data-province="BPC" value="8333"> H.Chơn Thành</option>
+                      <option data-province="BPC" value="8317"> H.Bù Đăng</option>
+                      <option data-province="BPC" value="8339"> TX.Phước Long</option>
+                      <option data-province="BPC" value="8342"> H.Phú Riềng</option>
+                      <option data-province="BPC" value="8340"> H.Bù Gia Mập</option>
+                      <option data-province="TNH" value="8419"> H.Tân Châu</option>
+                      <option data-province="TNH" value="8424"> H.Châu Thành</option>
+                      <option data-province="TNH" value="8410"> TP.Tây Ninh</option>
+                      <option data-province="TNH" value="8422"> H.Tân Biên</option>
+                      <option data-province="TNH" value="8431"> H.Gò Dầu</option>
+                      <option data-province="TNH" value="8433"> TX.Trảng Bàng</option>
+                      <option data-province="TNH" value="8417"> H.Dương Minh Châu</option>
+                      <option data-province="TNH" value="8429"> H.Bến Cầu</option>
+                      <option data-province="TNH" value="8427"> TX.Hòa Thành</option>
+                      <option data-province="BDG" value="8223"> TX.Tân Uyên</option>
+                      <option data-province="BDG" value="8246"> TP.Dĩ An</option>
+                      <option data-province="BDG" value="8231"> TX.Bến Cát</option>
+                      <option data-province="BDG" value="8248"> H.Bàu Bàng</option>
+                      <option data-province="BDG" value="8247"> H.Bắc Tân Uyên</option>
+                      <option data-province="BDG" value="8239"> TP.Thuận An</option>
+                      <option data-province="BDG" value="8228"> H.Phú Giáo</option>
+                      <option data-province="BDG" value="8236"> H.Dầu Tiếng</option>
+                      <option data-province="BDG" value="8210"> TP.Thủ Dầu Một</option>
+                      <option data-province="DNI" value="8164"> H.Trảng Bom</option>
+                      <option data-province="DNI" value="8146"> H.Tân Phú</option>
+                      <option data-province="DNI" value="8137"> H.Thống Nhất</option>
+                      <option data-province="DNI" value="8150"> H.Vĩnh Cửu</option>
+                      <option data-province="DNI" value="8158"> H.Nhơn Trạch</option>
+                      <option data-province="DNI" value="8110"> TP.Biên Hòa</option>
+                      <option data-province="DNI" value="8161"> H.Cẩm Mỹ</option>
+                      <option data-province="DNI" value="8139"> H.Xuân Lộc</option>
+                      <option data-province="DNI" value="8142"> H.Định Quán</option>
+                      <option data-province="DNI" value="8153"> H.Long Thành</option>
+                      <option data-province="DNI" value="8132"> TP.Long Khánh</option>
+                      <option data-province="BTN" value="8028"> H.Hàm Thuận Bắc</option>
+                      <option data-province="BTN" value="8044"> H.Phú Quí</option>
+                      <option data-province="BTN" value="8023"> H.Tuy Phong</option>
+                      <option data-province="BTN" value="8034"> H.Tánh Linh</option>
+                      <option data-province="BTN" value="8037"> H.Đức Linh</option>
+                      <option data-province="BTN" value="8046"> TX.La Gi</option>
+                      <option data-province="BTN" value="8040"> H.Hàm Tân</option>
+                      <option data-province="BTN" value="8031"> H.Hàm Thuận Nam</option>
+                      <option data-province="BTN" value="8019"> H.Bắc Bình</option>
+                      <option data-province="BTN" value="8010"> TP.Phan Thiết</option>
+                      <option data-province="VTU" value="7951"> TP.Bà Rịa</option>
+                      <option data-province="VTU" value="7956"> TX.Phú Mỹ</option>
+                      <option data-province="VTU" value="7948"> H.Xuyên Mộc</option>
+                      <option data-province="VTU" value="7953"> H.Châu Đức</option>
+                      <option data-province="VTU" value="7910"> TP.Vũng Tàu</option>
+                      <option data-province="VTU" value="7946"> H.Đất Đỏ</option>
+                      <option data-province="VTU" value="7943"> H.Côn Đảo</option>
+                      <option data-province="VTU" value="7944"> H.Long Điền</option>
+                      <option data-province="LAN" value="8521"> H.Tân Trụ</option>
+                      <option data-province="LAN" value="8542"> H.Đức Huệ</option>
+                      <option data-province="LAN" value="8531"> H.Cần Giuộc</option>
+                      <option data-province="LAN" value="8527"> H.Cần Đước</option>
+                      <option data-province="LAN" value="8553"> H.Tân Hưng</option>
+                      <option data-province="LAN" value="8518"> H.Châu Thành</option>
+                      <option data-province="LAN" value="8523"> H.Bến Lức</option>
+                      <option data-province="LAN" value="8546"> H.Tân Thạnh</option>
+                      <option data-province="LAN" value="8544"> H.Thạnh Hóa</option>
+                      <option data-province="LAN" value="8548"> H.Mộc Hóa</option>
+                      <option data-province="LAN" value="8537"> H.Đức Hòa</option>
+                      <option data-province="LAN" value="8551"> H.Vĩnh Hưng</option>
+                      <option data-province="LAN" value="8510"> TP.Tân An</option>
+                      <option data-province="LAN" value="8534"> H.Thủ Thừa</option>
+                      <option data-province="LAN" value="8554"> TX.Kiến Tường</option>
+                      <option data-province="DTP" value="8719"> H.Tân Hồng</option>
+                      <option data-province="DTP" value="8726"> H.Lấp Vò</option>
+                      <option data-province="DTP" value="8710"> TP.Cao Lãnh</option>
+                      <option data-province="DTP" value="8728"> H.Lai Vung</option>
+                      <option data-province="DTP" value="8738"> H.Châu Thành</option>
+                      <option data-province="DTP" value="8721"> H.Hồng Ngự</option>
+                      <option data-province="DTP" value="8740"> H.Cao Lãnh</option>
+                      <option data-province="DTP" value="8731"> TP.Sa Đéc</option>
+                      <option data-province="DTP" value="8714"> H.Tháp Mười</option>
+                      <option data-province="DTP" value="8741"> TX.Hồng Ngự</option>
+                      <option data-province="DTP" value="8724"> H.Thanh Bình</option>
+                      <option data-province="DTP" value="8717"> H.Tam Nông</option>
+                      <option data-province="AGG" value="8830"> TP.Châu Đốc</option>
+                      <option data-province="AGG" value="8825"> H.Phú Tân</option>
+                      <option data-province="AGG" value="8810"> TP.Long Xuyên</option>
+                      <option data-province="AGG" value="8837"> H.An Phú</option>
+                      <option data-province="AGG" value="8816"> H.Chợ Mới</option>
+                      <option data-province="AGG" value="8828"> H.Châu Phú</option>
+                      <option data-province="AGG" value="8834"> TX.Tân Châu</option>
+                      <option data-province="AGG" value="8840"> H.Tịnh Biên</option>
+                      <option data-province="AGG" value="8843"> H.Tri Tôn</option>
+                      <option data-province="AGG" value="8822"> H.Châu Thành</option>
+                      <option data-province="AGG" value="8846"> H.Thoại Sơn</option>
+                      <option data-province="VLG" value="8921"> TX.Bình Minh</option>
+                      <option data-province="VLG" value="8913"> H.Long Hồ</option>
+                      <option data-province="VLG" value="8938"> H.Bình Tân</option>
+                      <option data-province="VLG" value="8929"> H.Vũng Liêm</option>
+                      <option data-province="VLG" value="8917"> H.Tam Bình</option>
+                      <option data-province="VLG" value="8910"> TP.Vĩnh Long</option>
+                      <option data-province="VLG" value="8925"> H.Trà Ôn</option>
+                      <option data-province="VLG" value="8934"> H.Mang Thít</option>
+                      <option data-province="BTE" value="9333"> H.Ba Tri</option>
+                      <option data-province="BTE" value="9317"> H.Chợ Lách</option>
+                      <option data-province="BTE" value="9337"> H.Bình Đại</option>
+                      <option data-province="BTE" value="9321"> H.Mỏ Cày Nam</option>
+                      <option data-province="BTE" value="9320"> H.Mỏ Cày Bắc</option>
+                      <option data-province="BTE" value="9330"> H.Thạnh Phú</option>
+                      <option data-province="BTE" value="9326"> H.Giồng Trôm</option>
+                      <option data-province="BTE" value="9313"> H.Châu Thành</option>
+                      <option data-province="BTE" value="9310"> TP.Bến Tre</option>
+                      <option data-province="KGG" value="9224"> H.An Biên</option>
+                      <option data-province="KGG" value="9238"> H.Giồng Riềng</option>
+                      <option data-province="KGG" value="9246"> H.U Minh Thượng</option>
+                      <option data-province="KGG" value="9218"> H.Kiên Lương</option>
+                      <option data-province="KGG" value="9230"> H.Châu Thành</option>
+                      <option data-province="KGG" value="9216"> H.Hòn Đất</option>
+                      <option data-province="KGG" value="9250"> H.Huyên Giang Thành</option>
+                      <option data-province="KGG" value="9232"> H.Vĩnh Thuận</option>
+                      <option data-province="KGG" value="9210"> TP.Rạch Giá</option>
+                      <option data-province="KGG" value="9214"> H.Tân Hiệp</option>
+                      <option data-province="KGG" value="9222"> H.Phú Quốc</option>
+                      <option data-province="KGG" value="9235"> H.Gò Quao</option>
+                      <option data-province="KGG" value="9220"> TP.Hà Tiên</option>
+                      <option data-province="KGG" value="9241"> H.Kiên Hải</option>
+                      <option data-province="KGG" value="9227"> H.An Minh</option>
+                      <option data-province="TVH" value="9430"> H.Trà Cú</option>
+                      <option data-province="TVH" value="9439"> H.Duyên Hải</option>
+                      <option data-province="TVH" value="9421"> H.Cầu Kè</option>
+                      <option data-province="TVH" value="9417"> H.Càng Long</option>
+                      <option data-province="TVH" value="9426"> H.Châu Thành</option>
+                      <option data-province="TVH" value="9435"> H.Cầu Ngang</option>
+                      <option data-province="TVH" value="9410"> TP.Trà Vinh</option>
+                      <option data-province="TVH" value="9423"> H.Tiểu Cần</option>
+                      <option data-province="STG" value="9517"> H.Long Phú</option>
+                      <option data-province="STG" value="9527"> H.Thạnh Trị</option>
+                      <option data-province="STG" value="9550"> H.Châu Thành</option>
+                      <option data-province="STG" value="9540"> TX.Ngã Năm</option>
+                      <option data-province="STG" value="9520"> H.Kế Sách</option>
+                      <option data-province="STG" value="9538"> H.Cù Lao Dung</option>
+                      <option data-province="STG" value="9511"> H.Trần Đề</option>
+                      <option data-province="STG" value="9510"> TP.Sóc Trăng</option>
+                      <option data-province="STG" value="9530"> H.Mỹ Xuyên</option>
+                      <option data-province="STG" value="9523"> H.Mỹ Tú</option>
+                      <option data-province="STG" value="9535"> TX.Vĩnh Châu</option>
+                      <option data-province="BLU" value="9632"> H.Hòa Bình</option>
+                      <option data-province="BLU" value="9629"> H.Đông Hải</option>
+                      <option data-province="BLU" value="9610"> TP.Bạc Liêu</option>
+                      <option data-province="BLU" value="9626"> TX.Giá Rai</option>
+                      <option data-province="BLU" value="9615"> H.Vĩnh Lợi</option>
+                      <option data-province="BLU" value="9624"> H.Hồng Dân</option>
+                      <option data-province="BLU" value="9621"> H.Phước Long</option>
+                      <option data-province="CMU" value="9727"> H.Cái Nước</option>
+                      <option data-province="CMU" value="9739"> H.Năm Căn</option>
+                      <option data-province="CMU" value="9730"> H.Đầm Dơi</option>
+                      <option data-province="CMU" value="9734"> H.Ngọc Hiển</option>
+                      <option data-province="CMU" value="9721"> H.U Minh</option>
+                      <option data-province="CMU" value="9723"> H.Trần Văn Thời</option>
+                      <option data-province="CMU" value="9736"> H.Phú Tân</option>
+                      <option data-province="CMU" value="9710"> TP.Cà Mau</option>
+                      <option data-province="CMU" value="9718"> H.Thới Bình</option>
+                      <option data-province="DBN" value="3810"> TP.Điện Biên Phủ</option>
+                      <option data-province="DBN" value="3814"> H.Điện Biên</option>
+                      <option data-province="DBN" value="3820"> H.Điện Biên Đông</option>
+                      <option data-province="DBN" value="3839"> TX.Mường Lay</option>
+                      <option data-province="DBN" value="3840"> H.Mường Nhé</option>
+                      <option data-province="DBN" value="3848"> H.Mường Ảng</option>
+                      <option data-province="DBN" value="3841"> H.Nậm Pồ</option>
+                      <option data-province="DBN" value="3833"> H.Mường Chà</option>
+                      <option data-province="DBN" value="3836"> H.Tủa Chùa</option>
+                      <option data-province="DBN" value="3825"> H.Tuần Giáo</option>
+                      <option data-province="CBG" value="2779"> H.Quảng Hòa</option>
+                      <option data-province="TGG" value="8649"> TX.Cai Lậy</option>
+                      <option data-province="TVH" value="9440"> TX.Duyên Hải</option>
+                  </select>
+                  <label>To</label>
+                  <select class="form-select">
+                      <option selected>Select Province/City</option>
+                      <option value="HNI">TP.Hà Nội</option>
+                      <option value="HCM">TP.Hồ Chí Minh</option>
+                      <option value="HPG">TP.Hải Phòng</option>
+                      <option value="DNG">TP.Đà Nẵng</option>
+                      <option value="CTO">TP.Cần Thơ</option>
+                      <option value="TGG">T.Tiền Giang</option>
+                      <option value="HUG">T.Hậu Giang</option>
+                      <option value="DKG">T.Đăk Nông</option>
+                      <option value="VPC">T.Vĩnh Phúc</option>
+                      <option value="BNH">T.Bắc Ninh</option>
+                      <option value="HDG">T.Hải Dương</option>
+                      <option value="HYN">T.Hưng Yên</option>
+                      <option value="HNM">T.Hà Nam</option>
+                      <option value="NDH">T.Nam Ðịnh</option>
+                      <option value="TBH">T.Thái Bình</option>
+                      <option value="NBH">T.Ninh Bình</option>
+                      <option value="HGG">T.Hà Giang</option>
+                      <option value="CBG">T.Cao Bằng</option>
+                      <option value="LCI">T.Lào Cai</option>
+                      <option value="BKN">T.Bắc Kạn</option>
+                      <option value="LSN">T.Lạng Sơn</option>
+                      <option value="TQG">T.Tuyên Quang</option>
+                      <option value="YBN">T.Yên Bái</option>
+                      <option value="TNN">T.Thái Nguyên</option>
+                      <option value="PHO">T.Phú Thọ</option>
+                      <option value="BGG">T.Bắc Giang</option>
+                      <option value="QNH">T.Quảng Ninh</option>
+                      <option value="LCU">T.Lai Châu</option>
+                      <option value="SLA">T.Sơn La</option>
+                      <option value="HBH">T.Hòa Bình</option>
+                      <option value="THA">T.Thanh Hóa</option>
+                      <option value="NAN">T.Nghệ An</option>
+                      <option value="HTH">T.Hà Tĩnh</option>
+                      <option value="QBH">T.Quảng Bình</option>
+                      <option value="QTI">T.Quảng Trị</option>
+                      <option value="HUE">T.Thừa Thiên - Huế</option>
+                      <option value="QNM">T.Quảng Nam</option>
+                      <option value="QNI">T.Quảng Ngãi</option>
+                      <option value="BDH">T.Bình Ðịnh</option>
+                      <option value="PYN">T.Phú Yên</option>
+                      <option value="KHA">T.Khánh Hòa</option>
+                      <option value="KTM">T.Kon Tum</option>
+                      <option value="GLI">T.Gia Lai</option>
+                      <option value="DLK">T.Đăk Lăk</option>
+                      <option value="LDG">T.Lâm Ðồng</option>
+                      <option value="NTN">T.Ninh Thuận</option>
+                      <option value="BPC">T.Bình Phước</option>
+                      <option value="TNH">T.Tây Ninh</option>
+                      <option value="BDG">T.Bình Dương</option>
+                      <option value="DNI">T.Đồng Nai</option>
+                      <option value="BTN">T.Bình Thuận</option>
+                      <option value="VTU">T.Bà Rịa - Vũng Tàu</option>
+                      <option value="LAN">T.Long An</option>
+                      <option value="DTP">T.Đồng Tháp</option>
+                      <option value="AGG">T.An Giang</option>
+                      <option value="VLG">T.Vĩnh Long</option>
+                      <option value="BTE">T.Bến Tre</option>
+                      <option value="KGG">T.Kiên Giang</option>
+                      <option value="TVH">T.Trà Vinh</option>
+                      <option value="STG">T.Sóc Trăng</option>
+                      <option value="BLU">T.Bạc Liêu</option>
+                      <option value="CMU">T.Cà Mau</option>
+                      <option value="DBN">T.Điện Biên</option>
+                  </select>
+                  <select class="form-select">
+                      <option value="" data-province="">Select District</option>
+                      <option data-province="DKG" value="6430"> H.Tuy Đức</option>
+                      <option data-province="DKG" value="6410"> TP.Gia Nghĩa</option>
+                      <option data-province="DKG" value="6424"> H.Cư Jút</option>
+                      <option data-province="DKG" value="6421"> H.Krông Nô</option>
+                      <option data-province="DKG" value="6416"> H.Đắk Song</option>
+                      <option data-province="DKG" value="6418"> H.Đắk Mil</option>
+                      <option data-province="DKG" value="6413"> H.Đắk Rlấp</option>
+                      <option data-province="VPC" value="2828"> H.Huyên Yên Lạc</option>
+                      <option data-province="VPC" value="2815"> H.Tam Dương</option>
+                      <option data-province="VPC" value="2812"> H.Bình Xuyên</option>
+                      <option data-province="VPC" value="2838"> H.Sông Lô</option>
+                      <option data-province="VPC" value="2834"> TP.Phúc Yên</option>
+                      <option data-province="VPC" value="2810"> TP.Vĩnh Yên</option>
+                      <option data-province="VPC" value="2836"> H.Huỵên Tam Đảo</option>
+                      <option data-province="VPC" value="2823"> H.Vĩnh Tường</option>
+                      <option data-province="VPC" value="2818"> H.Lập Thạch</option>
+                      <option data-province="BNH" value="2235"> H.Lương Tài</option>
+                      <option data-province="BNH" value="2210"> TP.Bắc Ninh</option>
+                      <option data-province="BNH" value="2232"> H.Gia Bình</option>
+                      <option data-province="BNH" value="2224"> H.Thuận Thành</option>
+                      <option data-province="BNH" value="2228"> H.Quế Võ</option>
+                      <option data-province="BNH" value="2214"> H.Yên Phong</option>
+                      <option data-province="BNH" value="2218"> H.Tiên Du</option>
+                      <option data-province="BNH" value="2221"> TX.Từ Sơn</option>
+                      <option data-province="HDG" value="1710"> TP.Hải Dương</option>
+                      <option data-province="HDG" value="1761"> H.Ninh Giang</option>
+                      <option data-province="HDG" value="1765"> H.Tứ Kỳ</option>
+                      <option data-province="HDG" value="1727"> H.Thanh Hà</option>
+                      <option data-province="HDG" value="1747"> H.Cẩm Giàng</option>
+                      <option data-province="HDG" value="1758"> H.Thanh Miện</option>
+                      <option data-province="HDG" value="1734"> H.Nam Sách</option>
+                      <option data-province="HDG" value="1738"> TX.Kinh Môn</option>
+                      <option data-province="HDG" value="1742"> TP.Chí Linh</option>
+                      <option data-province="HDG" value="1751"> H.Bình Giang</option>
+                      <option data-province="HDG" value="1754"> H.Gia Lộc</option>
+                      <option data-province="HDG" value="1731"> H.Kim Thành</option>
+                      <option data-province="HYN" value="1616"> H.Phù Cừ</option>
+                      <option data-province="HYN" value="1635"> H.Văn Lâm</option>
+                      <option data-province="HYN" value="1625"> H.Khoái Châu</option>
+                      <option data-province="HYN" value="1618"> H.Ân Thi</option>
+                      <option data-province="HYN" value="1638"> H.Văn Giang</option>
+                      <option data-province="HYN" value="1632"> TX.Mỹ Hào</option>
+                      <option data-province="HYN" value="1622"> H.Kim Động</option>
+                      <option data-province="HYN" value="1613"> H.Tiên Lữ</option>
+                      <option data-province="HYN" value="1629"> H.Yên Mỹ</option>
+                      <option data-province="HYN" value="1610"> TP.Hưng Yên</option>
+                      <option data-province="HNM" value="4023"> TX.Duy Tiên</option>
+                      <option data-province="HNM" value="4027"> H.Kim Bảng</option>
+                      <option data-province="HNM" value="4015"> H.Lý Nhân</option>
+                      <option data-province="HNM" value="4010"> TP.Phủ Lý</option>
+                      <option data-province="HNM" value="4033"> H.Thanh Liêm</option>
+                      <option data-province="HNM" value="4038"> H.Bình Lục</option>
+                      <option data-province="NDH" value="4246"> H.Nam Trực</option>
+                      <option data-province="NDH" value="4251"> H.Trực Ninh</option>
+                      <option data-province="NDH" value="4239"> H.Mỹ Lộc</option>
+                      <option data-province="NDH" value="4278"> H.Giao Thủy</option>
+                      <option data-province="NDH" value="4265"> H.Nghĩa Hưng</option>
+                      <option data-province="NDH" value="4210"> TP.Nam Định</option>
+                      <option data-province="NDH" value="4282"> H.Hải Hậu</option>
+                      <option data-province="NDH" value="4242"> H.Vụ Bản</option>
+                      <option data-province="NDH" value="4271"> H.Xuân Trường</option>
+                      <option data-province="NDH" value="4257"> H.Ý Yên</option>
+                      <option data-province="TBH" value="4128"> H.Thái Thụy</option>
+                      <option data-province="TBH" value="4149"> H.Vũ Thư</option>
+                      <option data-province="TBH" value="4136"> H.Quỳnh Phụ</option>
+                      <option data-province="TBH" value="4142"> H.Hưng Hà</option>
+                      <option data-province="TBH" value="4110"> TP.Thái Bình</option>
+                      <option data-province="TBH" value="4121"> H.Đông Hưng</option>
+                      <option data-province="TBH" value="4162"> H.Tiền Hải</option>
+                      <option data-province="TBH" value="4155"> H.Kiến Xương</option>
+                      <option data-province="NBH" value="4310"> TP.Ninh Bình</option>
+                      <option data-province="NBH" value="4339"> H.Kim Sơn</option>
+                      <option data-province="NBH" value="4326"> H.Nho Quan</option>
+                      <option data-province="NBH" value="4322"> H.Gia Viễn</option>
+                      <option data-province="NBH" value="4336"> H.Yên Mô</option>
+                      <option data-province="NBH" value="4345"> H.Yên Khánh</option>
+                      <option data-province="NBH" value="4319"> H.Hoa Lư</option>
+                      <option data-province="NBH" value="4333"> TP.Tam Điệp</option>
+                      <option data-province="HGG" value="3139"> H.Hoàng Su Phì</option>
+                      <option data-province="HGG" value="3131"> H.Quản Bạ</option>
+                      <option data-province="HGG" value="3134"> H.Vị Xuyên</option>
+                      <option data-province="HGG" value="3112"> H.Bắc Mê</option>
+                      <option data-province="HGG" value="3144"> H.Xín Mần</option>
+                      <option data-province="HGG" value="3148"> H.Bắc Quang</option>
+                      <option data-province="HGG" value="3110"> TP.Hà Giang</option>
+                      <option data-province="HGG" value="3126"> H.Đồng Văn</option>
+                      <option data-province="HGG" value="3115"> H.Yên Minh</option>
+                      <option data-province="HGG" value="3121"> H.Mèo Vạc</option>
+                      <option data-province="HGG" value="3152"> H.Quang Bình</option>
+                      <option data-province="CBG" value="2771"> H.Thạch An</option>
+                      <option data-province="CBG" value="2722"> H.Hạ Lang</option>
+                      <option data-province="CBG" value="2756"> H.Nguyên Bình</option>
+                      <option data-province="CBG" value="2762"> H.Bảo Lạc</option>
+                      <option data-province="CBG" value="2778"> H.Phục Hòa</option>
+                      <option data-province="CBG" value="2727"> H.Trùng Khánh</option>
+                      <option data-province="CBG" value="2752"> H.Thông Nông</option>
+                      <option data-province="CBG" value="2767"> H.Bảo Lâm</option>
+                      <option data-province="CBG" value="2710"> TX.Cao Bằng</option>
+                      <option data-province="CBG" value="2746"> H.Hà Quảng</option>
+                      <option data-province="CBG" value="2734"> H.Trà Lĩnh</option>
+                      <option data-province="CBG" value="2738"> H.Hòa An</option>
+                      <option data-province="CBG" value="2715"> H.Quảng Uyên</option>
+                      <option data-province="LCI" value="3334"> TP.Lào Cai</option>
+                      <option data-province="LCI" value="3331"> TX.Sa Pa</option>
+                      <option data-province="LCI" value="3319"> H.Mường Khương</option>
+                      <option data-province="LCI" value="3325"> H.Bát Xát</option>
+                      <option data-province="LCI" value="3347"> H.Văn Bàn</option>
+                      <option data-province="QNM" value="5620"> H.Tiên Phước</option>
+                      <option data-province="QNM" value="5642"> TX.Điện Bàn</option>
+                      <option data-province="QNM" value="5630"> H.Quế Sơn</option>
+                      <option data-province="QNM" value="5611"> H.Nông Sơn</option>
+                      <option data-province="QNM" value="5623"> H.Núi Thành</option>
+                      <option data-province="QNM" value="5638"> TP.Hội An</option>
+                      <option data-province="QNM" value="5653"> H.Nam Trà My</option>
+                      <option data-province="QNM" value="5634"> H.Hiệp Đức</option>
+                      <option data-province="QNM" value="5627"> H.Duy Xuyên</option>
+                      <option data-province="QNI" value="5729"> H.Nghĩa Hành</option>
+                      <option data-province="QNI" value="5740"> H.Tư Nghĩa</option>
+                      <option data-province="QNI" value="5731"> H.Minh Long</option>
+                      <option data-province="QNI" value="5718"> H.Bình Sơn</option>
+                      <option data-province="QNI" value="5710"> TP.Quảng Ngãi</option>
+                      <option data-province="QNI" value="5738"> H.Mộ Đức</option>
+                      <option data-province="QNI" value="5722"> H.Trà Bồng</option>
+                      <option data-province="QNI" value="5724"> H.Tây Trà</option>
+                      <option data-province="QNI" value="5714"> H.Lý Sơn</option>
+                      <option data-province="QNI" value="5726"> H.Sơn Hà</option>
+                      <option data-province="QNI" value="5735"> TX.Đức Phổ</option>
+                      <option data-province="QNI" value="5715"> H.Sơn Tịnh</option>
+                      <option data-province="QNI" value="5732"> H.Ba Tơ</option>
+                      <option data-province="QNI" value="5728"> H.Sơn Tây</option>
+                      <option data-province="BDH" value="5942"> H.Huyên Tây Sơn</option>
+                      <option data-province="BDH" value="5936"> H.Hoài Ân</option>
+                      <option data-province="BDH" value="5945"> H.Vân Canh</option>
+                      <option data-province="BDH" value="5920"> TX.An Nhơn</option>
+                      <option data-province="BDH" value="5932"> H.Hoài Nhơn</option>
+                      <option data-province="BDH" value="5938"> H.An Lão</option>
+                      <option data-province="BDH" value="5940"> H.Vĩnh Thạnh</option>
+                      <option data-province="BDH" value="5917"> H.Tuy Phước</option>
+                      <option data-province="BDH" value="5928"> H.Phù Mỹ</option>
+                      <option data-province="BDH" value="5910"> TP.Qui Nhơn</option>
+                      <option data-province="BDH" value="5924"> H.Phù Cát</option>
+                      <option data-province="PYN" value="6219"> TX.Sông Cầu</option>
+                      <option data-province="PYN" value="6216"> H.Tuy An</option>
+                      <option data-province="PYN" value="6232"> H.Tây Hòa</option>
+                      <option data-province="PYN" value="6230"> H.Đông Hòa</option>
+                      <option data-province="PYN" value="6210"> TP.Tuy Hòa</option>
+                      <option data-province="PYN" value="6222"> H.Đồng Xuân</option>
+                      <option data-province="PYN" value="6234"> H.Phú Hòa</option>
+                      <option data-province="PYN" value="6224"> H.Sơn Hòa</option>
+                      <option data-province="PYN" value="6227"> H.Sông Hinh</option>
+                      <option data-province="KHA" value="6510"> TP.Nha Trang</option>
+                      <option data-province="KHA" value="6529"> TX.Ninh Hòa</option>
+                      <option data-province="KHA" value="6542"> H.Khánh Sơn</option>
+                      <option data-province="KHA" value="6544"> TP.Cam Ranh</option>
+                      <option data-province="KHA" value="6537"> H.Diên Khánh</option>
+                      <option data-province="KHA" value="6540"> H.Khánh Vĩnh</option>
+                      <option data-province="KHA" value="6548"> H.Trường Sa</option>
+                      <option data-province="KHA" value="6552"> H.Cam Lâm</option>
+                      <option data-province="KHA" value="6535"> H.Vạn Ninh</option>
+                      <option data-province="KTM" value="5822"> H.Đắk Hà</option>
+                      <option data-province="KTM" value="5835"> H.Sa Thầy</option>
+                      <option data-province="KTM" value="5837"> H.Tu Mơ Rông</option>
+                      <option data-province="KTM" value="5820"> H.Kon Plông</option>
+                      <option data-province="KTM" value="5810"> TP.Kon Tum</option>
+                      <option data-province="KTM" value="5825"> H.Đắk Tô</option>
+                      <option data-province="KTM" value="5830"> H.Ngọc Hồi</option>
+                      <option data-province="KTM" value="5818"> H.Kon Rẫy</option>
+                      <option data-province="KTM" value="5832"> H.Đắk Glei</option>
+                      <option data-province="KTM" value="5838"> H.Ia H'drai</option>
+                      <option data-province="GLI" value="6042"> H.Chư Prông</option>
+                      <option data-province="GLI" value="6060"> H.Krông Pa</option>
+                      <option data-province="GLI" value="6069"> H.Phú Thiện</option>
+                      <option data-province="GLI" value="6010"> TP.Pleiku</option>
+                      <option data-province="GLI" value="6017"> H.Đăk Đoa</option>
+                      <option data-province="GLI" value="6064"> H.Đăk Pơ</option>
+                      <option data-province="GLI" value="6034"> H.Ia Grai</option>
+                      <option data-province="GLI" value="6038"> H.Đức Cơ</option>
+                      <option data-province="GLI" value="6047"> H.Chư Sê</option>
+                      <option data-province="GLI" value="6026"> H.Kbang</option>
+                      <option data-province="GLI" value="6057"> H.Kông Chro</option>
+                      <option data-province="GLI" value="6021"> H.Mang Yang</option>
+                      <option data-province="GLI" value="6030"> H.Chư Păh</option>
+                      <option data-province="GLI" value="6066"> H.Ia Pa</option>
+                      <option data-province="GLI" value="6067"> H.Chư Pưh</option>
+                      <option data-province="GLI" value="6024"> TX.An Khê</option>
+                      <option data-province="GLI" value="6053"> TX.Ayun Pa</option>
+                      <option data-province="DLK" value="6347"> H.Krông Búk</option>
+                      <option data-province="DLK" value="6352"> H.Krông Năng</option>
+                      <option data-province="DLK" value="6390"> TX.Buôn Hồ</option>
+                      <option data-province="DLK" value="6334"> H.Ea Kar</option>
+                      <option data-province="DLK" value="6310"> TP.Buôn Ma Thuột</option>
+                      <option data-province="DLK" value="6366"> H.Krông A Na</option>
+                      <option data-province="DLK" value="6374"> H.Lắk</option>
+                      <option data-province="DLK" value="6343"> H.Cư M'gar</option>
+                      <option data-province="DLK" value="6360"> H.Buôn Đôn</option>
+                      <option data-province="DLK" value="6363"> H.Ea Súp</option>
+                      <option data-province="DLK" value="6370"> H.Krông Bông</option>
+                      <option data-province="DLK" value="6339"> H.M'đrắk</option>
+                      <option data-province="DLK" value="6356"> H.Ea H'leo</option>
+                      <option data-province="DLK" value="6380"> H.Cư Kuin</option>
+                      <option data-province="DLK" value="6327"> H.Krông Pắk</option>
+                      <option data-province="LDG" value="6727"> H.Lạc Dương</option>
+                      <option data-province="LDG" value="6743"> H.Bảo Lâm</option>
+                      <option data-province="LDG" value="6755"> H.Cát Tiên</option>
+                      <option data-province="LDG" value="6737"> H.Di Linh</option>
+                      <option data-province="LDG" value="6758"> H.Đạ Huoai</option>
+                      <option data-province="LDG" value="6728"> H.Lâm Hà</option>
+                      <option data-province="LDG" value="6710"> TP.Đà Lạt</option>
+                      <option data-province="LDG" value="6752"> H.Đạ Tẻh</option>
+                      <option data-province="LDG" value="6760"> H.Đam Rông</option>
+                      <option data-province="LDG" value="6747"> TP.Bảo Lộc</option>
+                      <option data-province="LDG" value="6725"> H.Đơn Dương</option>
+                      <option data-province="LDG" value="6733"> H.Đức Trọng</option>
+                      <option data-province="LCI" value="3310"> H.Bắc Hà</option>
+                      <option data-province="LCI" value="3316"> H.Si Ma Cai</option>
+                      <option data-province="LCI" value="3353"> H.Bảo Yên</option>
+                      <option data-province="LCI" value="3341"> H.Bảo Thắng</option>
+                      <option data-province="BKN" value="2638"> H.Chợ Mới</option>
+                      <option data-province="BKN" value="2632"> H.Chợ Đồn</option>
+                      <option data-province="BKN" value="2623"> H.Ngân Sơn</option>
+                      <option data-province="BKN" value="2610"> TP.Bắc Kạn</option>
+                      <option data-province="BKN" value="2613"> H.Na Rì</option>
+                      <option data-province="BKN" value="2619"> H.Bạch Thông</option>
+                      <option data-province="BKN" value="2627"> H.Ba Bể</option>
+                      <option data-province="BKN" value="2643"> H.Pắc Nặm</option>
+                      <option data-province="LSN" value="2439"> H.Văn Quan</option>
+                      <option data-province="LSN" value="2461"> H.Hữu Lũng</option>
+                      <option data-province="LSN" value="2456"> H.Chi Lăng</option>
+                      <option data-province="LSN" value="2450"> H.Bắc Sơn</option>
+                      <option data-province="LSN" value="2425"> H.Văn Lãng</option>
+                      <option data-province="LSN" value="2468"> H.Lộc Bình</option>
+                      <option data-province="LSN" value="2418"> H.Cao Lộc</option>
+                      <option data-province="LSN" value="2475"> H.Đình Lập</option>
+                      <option data-province="LSN" value="2445"> H.Bình Gia</option>
+                      <option data-province="LSN" value="2410"> TP.Lạng Sơn</option>
+                      <option data-province="LSN" value="2431"> H.Tràng Định</option>
+                      <option data-province="TQG" value="3010"> TP.Tuyên Quang</option>
+                      <option data-province="TQG" value="3015"> H.Yên Sơn</option>
+                      <option data-province="TQG" value="3028"> H.Sơn Dương</option>
+                      <option data-province="TQG" value="3038"> H.Chiêm Hóa</option>
+                      <option data-province="TQG" value="3048"> H.Na Hang</option>
+                      <option data-province="TQG" value="3056"> H.Lâm Bình</option>
+                      <option data-province="TQG" value="3055"> H.Hàm Yên</option>
+                      <option data-province="YBN" value="3247"> H.Văn Chấn</option>
+                      <option data-province="YBN" value="3240"> H.Văn Yên</option>
+                      <option data-province="YBN" value="3219"> H.Yên Bình</option>
+                      <option data-province="YBN" value="3259"> H.Trạm Tấu</option>
+                      <option data-province="YBN" value="3226"> H.Lục Yên</option>
+                      <option data-province="YBN" value="3256"> TX.Nghĩa Lộ</option>
+                      <option data-province="YBN" value="3261"> H.Mù Căng Chải</option>
+                      <option data-province="YBN" value="3233"> H.Trấn Yên</option>
+                      <option data-province="YBN" value="3210"> TP.Yên Bái</option>
+                      <option data-province="TNN" value="2568"> TX.Phổ Yên</option>
+                      <option data-province="TNN" value="2538"> H.Phú Lương</option>
+                      <option data-province="TNN" value="2532"> H.Võ Nhai</option>
+                      <option data-province="TNN" value="2510"> TP.Thái Nguyên</option>
+                      <option data-province="TNN" value="2575"> H.Phú Bình</option>
+                      <option data-province="TNN" value="2525"> H.Đồng Hỷ</option>
+                      <option data-province="TNN" value="2553"> H.Đại Từ</option>
+                      <option data-province="TNN" value="2544"> H.Định Hóa</option>
+                      <option data-province="TNN" value="2564"> TP.Sông Công</option>
+                      <option data-province="PHO" value="2935"> H.Thi Xã Phú Thọ</option>
+                      <option data-province="PHO" value="2956"> H.Thanh Ba</option>
+                      <option data-province="PHO" value="2910"> TP.Việt Trì</option>
+                      <option data-province="PHO" value="2949"> H.Đoan Hùng</option>
+                      <option data-province="PHO" value="2945"> H.Thanh Thủy</option>
+                      <option data-province="PHO" value="2982"> H.Thanh Sơn</option>
+                      <option data-province="PHO" value="2994"> H.Tân Sơn</option>
+                      <option data-province="PHO" value="2976"> H.Yên Lập</option>
+                      <option data-province="PHO" value="2970"> H.Cẩm Khê</option>
+                      <option data-province="PHO" value="2940"> H.Tam Nông</option>
+                      <option data-province="PHO" value="2929"> H.Lâm Thao</option>
+                      <option data-province="PHO" value="2962"> H.Hạ Hòa</option>
+                      <option data-province="PHO" value="2923"> H.Phù Ninh</option>
+                      <option data-province="BGG" value="2310"> TP.Bắc Giang</option>
+                      <option data-province="BGG" value="2366"> H.Hiệp Hòa</option>
+                      <option data-province="BGG" value="2361"> H.Việt Yên</option>
+                      <option data-province="BGG" value="2347"> H.Yên Thế</option>
+                      <option data-province="BGG" value="2330"> H.Lục Ngạn</option>
+                      <option data-province="BGG" value="2340"> H.Lạng Giang</option>
+                      <option data-province="BGG" value="2353"> H.Tân Yên</option>
+                      <option data-province="BGG" value="2318"> H.Lục Nam</option>
+                      <option data-province="BGG" value="2325"> H.Sơn Động</option>
+                      <option data-province="BGG" value="2372"> H.Yên Dũng</option>
+                      <option data-province="QNH" value="2056"> H.Tiên Yên</option>
+                      <option data-province="QNH" value="2079"> TP.Uông Bí</option>
+                      <option data-province="QNH" value="2075"> TX.Quảng Yên</option>
+                      <option data-province="QNH" value="2086"> TX.Đông Triều</option>
+                      <option data-province="QNH" value="2059"> H.Ba Chẽ</option>
+                      <option data-province="QNH" value="2061"> H.Bình Liêu</option>
+                      <option data-province="QNH" value="2063"> H.Đầm Hà</option>
+                      <option data-province="QNH" value="2053"> H.Vân Đồn</option>
+                      <option data-province="QNH" value="2032"> TP.Cẩm Phả</option>
+                      <option data-province="QNH" value="2055"> H.Cô Tô</option>
+                      <option data-province="QNH" value="2068"> TP.Móng Cái</option>
+                      <option data-province="QNH" value="2065"> H.Hải Hà</option>
+                      <option data-province="QNH" value="2010"> TP.Hạ Long</option>
+                      <option data-province="QNH" value="2072"> H.Hoành Bồ</option>
+                      <option data-province="LCU" value="3911"> H.Tam Đường</option>
+                      <option data-province="LCU" value="3915"> H.Phong Thổ</option>
+                      <option data-province="LCU" value="3923"> H.Sìn Hồ</option>
+                      <option data-province="LCU" value="3929"> H.Than Uyên</option>
+                      <option data-province="LCU" value="3919"> H.Mường Tè</option>
+                      <option data-province="LCU" value="3940"> H.Tân Uyên</option>
+                      <option data-province="LCU" value="3924"> H.Nậm Nhùn</option>
+                      <option data-province="LCU" value="3910"> TP.Lai Châu</option>
+                      <option data-province="SLA" value="3653"> H.Quỳnh Nhai</option>
+                      <option data-province="SLA" value="3647"> H.Mường La</option>
+                      <option data-province="SLA" value="3668"> H.Sông Mã</option>
+                      <option data-province="SLA" value="3610"> TP.Sơn La</option>
+                      <option data-province="SLA" value="3615"> H.Mai Sơn</option>
+                      <option data-province="SLA" value="3636"> H.Phù Yên</option>
+                      <option data-province="SLA" value="3657"> H.Thuận Châu</option>
+                      <option data-province="SLA" value="3628"> H.Mộc Châu</option>
+                      <option data-province="SLA" value="3624"> H.Yên Châu</option>
+                      <option data-province="SLA" value="3611"> H.Vân Hồ</option>
+                      <option data-province="SLA" value="3643"> H.Bắc Yên</option>
+                      <option data-province="SLA" value="3677"> H.Sốp Cộp</option>
+                      <option data-province="HBH" value="3515"> H.Kỳ Sơn</option>
+                      <option data-province="HBH" value="3558"> H.Lạc Thủy</option>
+                      <option data-province="HBH" value="3551"> H.Kim Bôi</option>
+                      <option data-province="HBH" value="3527"> H.Tân Lạc</option>
+                      <option data-province="HBH" value="3517"> H.Lương Sơn</option>
+                      <option data-province="HBH" value="3548"> H.Yên Thủy</option>
+                      <option data-province="HBH" value="3537"> H.Cao Phong</option>
+                      <option data-province="HBH" value="3522"> H.Đà Bắc</option>
+                      <option data-province="HBH" value="3539"> H.Lạc Sơn</option>
+                      <option data-province="HBH" value="3510"> TP.Hòa Bình</option>
+                      <option data-province="HBH" value="3533"> H.Mai Châu</option>
+                      <option data-province="THA" value="4516"> H.Ngọc Lặc</option>
+                      <option data-province="THA" value="4422"> H.Hoằng Hóa</option>
+                      <option data-province="THA" value="4529"> H.Quan Sơn</option>
+                      <option data-province="THA" value="4470"> H.Thạch Thành</option>
+                      <option data-province="THA" value="4555"> H.Quảng Xương</option>
+                      <option data-province="THA" value="4437"> H.Nga Sơn</option>
+                      <option data-province="THA" value="4452"> H.Đông Sơn</option>
+                      <option data-province="THA" value="4467"> H.Vĩnh Lộc</option>
+                      <option data-province="THA" value="4523"> H.Lang Chánh</option>
+                      <option data-province="THA" value="4410"> TP.Thanh Hóa</option>
+                      <option data-province="THA" value="4487"> H.Triệu Sơn</option>
+                      <option data-province="THA" value="4538"> H.Nông Cống</option>
+                      <option data-province="THA" value="4564"> H.Tĩnh Gia</option>
+                      <option data-province="THA" value="4534"> H.Thường Xuân</option>
+                      <option data-province="THA" value="4551"> H.Như Xuân</option>
+                      <option data-province="THA" value="4431"> H.Hậu Lộc</option>
+                      <option data-province="THA" value="4546"> H.Như Thanh</option>
+                      <option data-province="THA" value="4444"> H.Hà Trung</option>
+                      <option data-province="THA" value="4532"> H.Mường Lát</option>
+                      <option data-province="THA" value="4476"> H.Cẩm Thủy</option>
+                      <option data-province="THA" value="4526"> H.Quan Hóa</option>
+                      <option data-province="THA" value="4481"> H.Bá Thước</option>
+                      <option data-province="THA" value="4462"> H.Yên Định</option>
+                      <option data-province="THA" value="4497"> H.Thọ Xuân</option>
+                      <option data-province="THA" value="4449"> TX.Bỉm Sơn</option>
+                      <option data-province="THA" value="4456"> H.Thiệu Hóa</option>
+                      <option data-province="THA" value="4420"> TP.Sầm Sơn</option>
+                      <option data-province="NAN" value="4724"> H.Anh Sơn</option>
+                      <option data-province="NAN" value="4730"> H.Con Cuông</option>
+                      <option data-province="NAN" value="4743"> H.Hưng Nguyên</option>
+                      <option data-province="NAN" value="4716"> TX.Thái Hòa</option>
+                      <option data-province="NAN" value="4697"> H.Quỳ Châu</option>
+                      <option data-province="NAN" value="4624"> TX.Cửa Lò</option>
+                      <option data-province="NAN" value="4733"> H.Tương Dương</option>
+                      <option data-province="NAN" value="4711"> H.Quế Phong</option>
+                      <option data-province="NAN" value="4684"> H.Tân Kỳ</option>
+                      <option data-province="NAN" value="4638"> H.Diễn Châu</option>
+                      <option data-province="NAN" value="4738"> H.Kỳ Sơn</option>
+                      <option data-province="NAN" value="4610"> TP.Vinh</option>
+                      <option data-province="NAN" value="4714"> H.Đô Lương</option>
+                      <option data-province="NAN" value="4626"> H.Nghi Lộc</option>
+                      <option data-province="NAN" value="4662"> H.Yên Thành</option>
+                      <option data-province="NAN" value="4649"> H.Quỳnh Lưu</option>
+                      <option data-province="NAN" value="4749"> H.Nam Đàn</option>
+                      <option data-province="NAN" value="4674"> H.Nghĩa Đàn</option>
+                      <option data-province="NAN" value="4758"> TX.Hoàng Mai</option>
+                      <option data-province="NAN" value="4757"> H.Thanh Chương</option>
+                      <option data-province="NAN" value="4690"> H.Quỳ Hợp</option>
+                      <option data-province="HTH" value="4866"> H.Vũ Quang</option>
+                      <option data-province="HTH" value="4849"> H.Đức Thọ</option>
+                      <option data-province="HTH" value="4829"> H.Can Lộc</option>
+                      <option data-province="HTH" value="4891"> H.Lộc Hà</option>
+                      <option data-province="HTH" value="4844"> H.Nghi Xuân</option>
+                      <option data-province="HTH" value="4856"> H.Hương Sơn</option>
+                      <option data-province="HTH" value="4869"> H.Hương Khê</option>
+                      <option data-province="HTH" value="4876"> H.Cẩm Xuyên</option>
+                      <option data-province="HTH" value="4810"> TP.Hà Tĩnh</option>
+                      <option data-province="HTH" value="4819"> H.Thạch Hà</option>
+                      <option data-province="HTH" value="4892"> TX.Kỳ Anh</option>
+                      <option data-province="HTH" value="4884"> H.Kỳ Anh</option>
+                      <option data-province="HTH" value="4837"> TX.Hồng Lĩnh</option>
+                      <option data-province="QBH" value="5139"> H.Lệ Thủy</option>
+                      <option data-province="QBH" value="5128"> H.Tuyên Hóa</option>
+                      <option data-province="QBH" value="5110"> TP.Đồng Hới</option>
+                      <option data-province="QBH" value="5122"> H.Quảng Trạch</option>
+                      <option data-province="QBH" value="5132"> H.Minh Hóa</option>
+                      <option data-province="QBH" value="5136"> H.Quảng Ninh</option>
+                      <option data-province="QBH" value="5115"> H.Bố Trạch</option>
+                      <option data-province="QBH" value="5140"> TX.Ba Đồn</option>
+                      <option data-province="QTI" value="5233"> H.Triệu Phong</option>
+                      <option data-province="QTI" value="5210"> TP.Đông Hà</option>
+                      <option data-province="QTI" value="5226"> H.Hướng Hóa</option>
+                      <option data-province="QTI" value="5237"> TX.Quảng Trị</option>
+                      <option data-province="QTI" value="5223"> H.Cam Lộ</option>
+                      <option data-province="QTI" value="5244"> H.Cồn Cỏ</option>
+                      <option data-province="QTI" value="5230"> H.Đa Krông</option>
+                      <option data-province="QTI" value="5238"> H.Hải Lăng</option>
+                      <option data-province="QTI" value="5218"> H.Vĩnh Linh</option>
+                      <option data-province="QTI" value="5214"> H.Gio Linh</option>
+                      <option data-province="HUE" value="5367"> H.Phú Vang</option>
+                      <option data-province="HUE" value="5371"> H.Phú Lộc</option>
+                      <option data-province="HUE" value="5361"> TX.Hương Thủy</option>
+                      <option data-province="HUE" value="5357"> H.A Lưới</option>
+                      <option data-province="HUE" value="5349"> H.Phong Điền</option>
+                      <option data-province="HUE" value="5346"> H.Quảng Điền</option>
+                      <option data-province="HUE" value="5364"> H.Nam Đông</option>
+                      <option data-province="HUE" value="5353"> TX.Hương Trà</option>
+                      <option data-province="HUE" value="5310"> TP.Huế</option>
+                      <option data-province="QNM" value="5662"> H.Phú Ninh</option>
+                      <option data-province="QNM" value="5651"> H.Phước Sơn</option>
+                      <option data-province="QNM" value="5647"> H.Đại Lộc</option>
+                      <option data-province="QNM" value="5660"> H.Nam Giang</option>
+                      <option data-province="QNM" value="5616"> H.Thăng Bình</option>
+                      <option data-province="QNM" value="5610"> TP.Tam Kỳ</option>
+                      <option data-province="QNM" value="5655"> H.Đông Giang</option>
+                      <option data-province="QNM" value="5636"> H.Bắc Trà My</option>
+                      <option data-province="QNM" value="5658"> H.Tây Giang</option>
+                      <option data-province="HNI" value="1100"> Q.Hoàn Kiếm</option>
+                      <option data-province="HNI" value="1547"> H.Ba Vì</option>
+                      <option data-province="HNI" value="1529"> H.Hoài Đức</option>
+                      <option data-province="HNI" value="1270"> Q.Hoàng Mai</option>
+                      <option data-province="HNI" value="1553"> H.Thạch Thất</option>
+                      <option data-province="HNI" value="1561"> H.Chương Mỹ</option>
+                      <option data-province="HNI" value="1390"> H.Sóc Sơn</option>
+                      <option data-province="HNI" value="1310"> H.Gia Lâm</option>
+                      <option data-province="HNI" value="1120"> Q.Hai Bà Trưng</option>
+                      <option data-province="HNI" value="1240"> Q.Tây Hồ</option>
+                      <option data-province="HNI" value="1420"> H.Mê Linh</option>
+                      <option data-province="HNI" value="1340"> H.Thanh Trì</option>
+                      <option data-province="HNI" value="1571"> H.Ứng Hòa</option>
+                      <option data-province="HNI" value="1220"> Q.Cầu Giấy</option>
+                      <option data-province="HNI" value="1536"> H.Phúc Thọ</option>
+                      <option data-province="HNI" value="1567"> H.Thanh Oai</option>
+                      <option data-province="HNI" value="1576"> H.Mỹ Đức</option>
+                      <option data-province="HNI" value="1540"> TX.Sơn Tây</option>
+                      <option data-province="HNI" value="1533"> H.Đan Phượng</option>
+                      <option data-province="HNI" value="1250"> Q.Long Biên</option>
+                      <option data-province="HNI" value="1557"> H.Quốc Oai</option>
+                      <option data-province="HNI" value="1180"> Q.Ba Đình</option>
+                      <option data-province="HNI" value="1200"> Q.Thanh Xuân</option>
+                      <option data-province="HNI" value="1150"> Q.Đống Đa</option>
+                      <option data-province="HNI" value="1260"> Q.Nam Từ Liêm</option>
+                      <option data-province="HNI" value="1280"> Q.Bắc Từ Liêm</option>
+                      <option data-province="HNI" value="1580"> H.Phú Xuyên</option>
+                      <option data-province="HNI" value="1360"> H.Đông Anh</option>
+                      <option data-province="HNI" value="1510"> Q.Hà Đông</option>
+                      <option data-province="HNI" value="1585"> H.Thường Tín</option>
+                      <option data-province="HCM" value="7460"> Q.6</option>
+                      <option data-province="HCM" value="7480"> Q.5</option>
+                      <option data-province="HCM" value="7220"> Q.3</option>
+                      <option data-province="HCM" value="7360"> Q.Tân Bình</option>
+                      <option data-province="HCM" value="7330"> H.Củ Chi</option>
+                      <option data-province="HCM" value="7580"> H.Nhà Bè</option>
+                      <option data-province="HCM" value="7400"> Q.10</option>
+                      <option data-province="HCM" value="7560"> Q.7</option>
+                      <option data-province="HCM" value="7290"> Q.12</option>
+                      <option data-province="HCM" value="7150"> Q.9</option>
+                      <option data-province="HCM" value="7590"> H.Cần Giờ</option>
+                      <option data-province="HCM" value="7100"> Q.1</option>
+                      <option data-province="HCM" value="7270"> Q.Gò Vấp</option>
+                      <option data-province="HCM" value="7430"> Q.11</option>
+                      <option data-province="HCM" value="7620"> Q.Bình Tân</option>
+                      <option data-province="HCM" value="7510"> Q.8</option>
+                      <option data-province="HCM" value="7540"> Q.4</option>
+                      <option data-province="HCM" value="7380"> H.Bình Chánh</option>
+                      <option data-province="HCM" value="7200"> Q.Thủ Đức</option>
+                      <option data-province="HCM" value="7170"> Q.Bình Thạnh</option>
+                      <option data-province="HCM" value="7250"> Q.Phú Nhuận</option>
+                      <option data-province="HCM" value="7130"> Q.2</option>
+                      <option data-province="HCM" value="7600"> Q.Tân Phú</option>
+                      <option data-province="HCM" value="7310"> H.Hóc Môn</option>
+                      <option data-province="HPG" value="1810"> Q.Hồng Bàng</option>
+                      <option data-province="HPG" value="1871"> Q.Đồ Sơn</option>
+                      <option data-province="HPG" value="1836"> Q.Lê Chân</option>
+                      <option data-province="HPG" value="1848"> H.An Dương</option>
+                      <option data-province="HPG" value="1872"> H.Đảo Bạch Long Vĩ</option>
+                      <option data-province="HPG" value="1867"> H.Kiến Thụy</option>
+                      <option data-province="HPG" value="1890"> Q.Dương Kinh</option>
+                      <option data-province="HPG" value="1853"> H.An Lão</option>
+                      <option data-province="HPG" value="1862"> H.Vĩnh Bảo</option>
+                      <option data-province="HPG" value="1851"> Q.Kiến An</option>
+                      <option data-province="HPG" value="1891"> H.Đảo Cát Hải</option>
+                      <option data-province="HPG" value="1830"> H.Thủy Nguyên</option>
+                      <option data-province="HPG" value="1818"> Q.Ngô Quyền</option>
+                      <option data-province="HPG" value="1856"> H.Tiên Lãng</option>
+                      <option data-province="HPG" value="1875"> Q.Hải An</option>
+                      <option data-province="DNG" value="5574"> Q.Cẩm Lệ</option>
+                      <option data-province="DNG" value="5542"> Q.Thanh Khê</option>
+                      <option data-province="DNG" value="5568"> Q.Ngũ Hành Sơn</option>
+                      <option data-province="DNG" value="5510"> Q.Hải Châu</option>
+                      <option data-province="DNG" value="5533"> Q.Sơn Trà</option>
+                      <option data-province="DNG" value="5557"> Q.Liên Chiểu</option>
+                      <option data-province="DNG" value="5573"> H.Hoàng Sa</option>
+                      <option data-province="DNG" value="5575"> H.Điện Bàn</option>
+                      <option data-province="DNG" value="5564"> H.Hòa Vang</option>
+                      <option data-province="CTO" value="9040"> Q.Ô Môn</option>
+                      <option data-province="CTO" value="9060"> H.Thới Lai</option>
+                      <option data-province="CTO" value="9010"> Q.Ninh Kiều</option>
+                      <option data-province="CTO" value="9042"> Q.Thốt Nốt</option>
+                      <option data-province="CTO" value="9050"> H.Vĩnh Thạnh</option>
+                      <option data-province="CTO" value="9044"> H.Phong Điền</option>
+                      <option data-province="CTO" value="9036"> Q.Cái Răng</option>
+                      <option data-province="CTO" value="9046"> H.Cờ Đỏ</option>
+                      <option data-province="CTO" value="9028"> Q.Bình Thủy</option>
+                      <option data-province="TGG" value="8648"> H.Tân Phú Đông</option>
+                      <option data-province="TGG" value="8620"> H.Chợ Gạo</option>
+                      <option data-province="TGG" value="8624"> H.Gò Công Tây</option>
+                      <option data-province="TGG" value="8647"> H.Cái Bè</option>
+                      <option data-province="TGG" value="8630"> H.Gò Công Đông</option>
+                      <option data-province="TGG" value="8634"> H.Châu Thành</option>
+                      <option data-province="TGG" value="8639"> H.Tân Phước</option>
+                      <option data-province="TGG" value="8627"> TX.Gò Công</option>
+                      <option data-province="TGG" value="8641"> H.Cai Lậy</option>
+                      <option data-province="TGG" value="8610"> TP.Mỹ Tho</option>
+                      <option data-province="HUG" value="9110"> TP.Vị Thanh</option>
+                      <option data-province="HUG" value="9125"> H.Châu Thành A</option>
+                      <option data-province="HUG" value="9115"> H.Long Mỹ</option>
+                      <option data-province="HUG" value="9127"> H.Châu Thành</option>
+                      <option data-province="HUG" value="9122"> H.Vị Thủy</option>
+                      <option data-province="HUG" value="9129"> TP.Ngã Bảy</option>
+                      <option data-province="HUG" value="9118"> H.Phụng Hiệp</option>
+                      <option data-province="HUG" value="9130"> TX.Long Mỹ</option>
+                      <option data-province="DKG" value="6427"> H.Đắk Glong</option>
+                      <option data-province="NTN" value="6629"> H.Bác Ái</option>
+                      <option data-province="NTN" value="6633"> H.Ninh Phước</option>
+                      <option data-province="NTN" value="6631"> H.Ninh Sơn</option>
+                      <option data-province="NTN" value="6630"> H.Thuận Nam</option>
+                      <option data-province="NTN" value="6626"> H.Ninh Hải</option>
+                      <option data-province="NTN" value="6636"> H.Thuận Bắc</option>
+                      <option data-province="NTN" value="6610"> TP.Phan Rang-tháp Chàm</option>
+                      <option data-province="BPC" value="8336"> H.Bù Đốp</option>
+                      <option data-province="BPC" value="8325"> H.Lộc Ninh</option>
+                      <option data-province="BPC" value="8310"> TP.Đồng Xoài</option>
+                      <option data-province="BPC" value="8315"> H.Đồng Phú</option>
+                      <option data-province="BPC" value="8341"> H.Hớn Quản</option>
+                      <option data-province="BPC" value="8329"> TX.Bình Long</option>
+                      <option data-province="BPC" value="8333"> H.Chơn Thành</option>
+                      <option data-province="BPC" value="8317"> H.Bù Đăng</option>
+                      <option data-province="BPC" value="8339"> TX.Phước Long</option>
+                      <option data-province="BPC" value="8342"> H.Phú Riềng</option>
+                      <option data-province="BPC" value="8340"> H.Bù Gia Mập</option>
+                      <option data-province="TNH" value="8419"> H.Tân Châu</option>
+                      <option data-province="TNH" value="8424"> H.Châu Thành</option>
+                      <option data-province="TNH" value="8410"> TP.Tây Ninh</option>
+                      <option data-province="TNH" value="8422"> H.Tân Biên</option>
+                      <option data-province="TNH" value="8431"> H.Gò Dầu</option>
+                      <option data-province="TNH" value="8433"> TX.Trảng Bàng</option>
+                      <option data-province="TNH" value="8417"> H.Dương Minh Châu</option>
+                      <option data-province="TNH" value="8429"> H.Bến Cầu</option>
+                      <option data-province="TNH" value="8427"> TX.Hòa Thành</option>
+                      <option data-province="BDG" value="8223"> TX.Tân Uyên</option>
+                      <option data-province="BDG" value="8246"> TP.Dĩ An</option>
+                      <option data-province="BDG" value="8231"> TX.Bến Cát</option>
+                      <option data-province="BDG" value="8248"> H.Bàu Bàng</option>
+                      <option data-province="BDG" value="8247"> H.Bắc Tân Uyên</option>
+                      <option data-province="BDG" value="8239"> TP.Thuận An</option>
+                      <option data-province="BDG" value="8228"> H.Phú Giáo</option>
+                      <option data-province="BDG" value="8236"> H.Dầu Tiếng</option>
+                      <option data-province="BDG" value="8210"> TP.Thủ Dầu Một</option>
+                      <option data-province="DNI" value="8164"> H.Trảng Bom</option>
+                      <option data-province="DNI" value="8146"> H.Tân Phú</option>
+                      <option data-province="DNI" value="8137"> H.Thống Nhất</option>
+                      <option data-province="DNI" value="8150"> H.Vĩnh Cửu</option>
+                      <option data-province="DNI" value="8158"> H.Nhơn Trạch</option>
+                      <option data-province="DNI" value="8110"> TP.Biên Hòa</option>
+                      <option data-province="DNI" value="8161"> H.Cẩm Mỹ</option>
+                      <option data-province="DNI" value="8139"> H.Xuân Lộc</option>
+                      <option data-province="DNI" value="8142"> H.Định Quán</option>
+                      <option data-province="DNI" value="8153"> H.Long Thành</option>
+                      <option data-province="DNI" value="8132"> TP.Long Khánh</option>
+                      <option data-province="BTN" value="8028"> H.Hàm Thuận Bắc</option>
+                      <option data-province="BTN" value="8044"> H.Phú Quí</option>
+                      <option data-province="BTN" value="8023"> H.Tuy Phong</option>
+                      <option data-province="BTN" value="8034"> H.Tánh Linh</option>
+                      <option data-province="BTN" value="8037"> H.Đức Linh</option>
+                      <option data-province="BTN" value="8046"> TX.La Gi</option>
+                      <option data-province="BTN" value="8040"> H.Hàm Tân</option>
+                      <option data-province="BTN" value="8031"> H.Hàm Thuận Nam</option>
+                      <option data-province="BTN" value="8019"> H.Bắc Bình</option>
+                      <option data-province="BTN" value="8010"> TP.Phan Thiết</option>
+                      <option data-province="VTU" value="7951"> TP.Bà Rịa</option>
+                      <option data-province="VTU" value="7956"> TX.Phú Mỹ</option>
+                      <option data-province="VTU" value="7948"> H.Xuyên Mộc</option>
+                      <option data-province="VTU" value="7953"> H.Châu Đức</option>
+                      <option data-province="VTU" value="7910"> TP.Vũng Tàu</option>
+                      <option data-province="VTU" value="7946"> H.Đất Đỏ</option>
+                      <option data-province="VTU" value="7943"> H.Côn Đảo</option>
+                      <option data-province="VTU" value="7944"> H.Long Điền</option>
+                      <option data-province="LAN" value="8521"> H.Tân Trụ</option>
+                      <option data-province="LAN" value="8542"> H.Đức Huệ</option>
+                      <option data-province="LAN" value="8531"> H.Cần Giuộc</option>
+                      <option data-province="LAN" value="8527"> H.Cần Đước</option>
+                      <option data-province="LAN" value="8553"> H.Tân Hưng</option>
+                      <option data-province="LAN" value="8518"> H.Châu Thành</option>
+                      <option data-province="LAN" value="8523"> H.Bến Lức</option>
+                      <option data-province="LAN" value="8546"> H.Tân Thạnh</option>
+                      <option data-province="LAN" value="8544"> H.Thạnh Hóa</option>
+                      <option data-province="LAN" value="8548"> H.Mộc Hóa</option>
+                      <option data-province="LAN" value="8537"> H.Đức Hòa</option>
+                      <option data-province="LAN" value="8551"> H.Vĩnh Hưng</option>
+                      <option data-province="LAN" value="8510"> TP.Tân An</option>
+                      <option data-province="LAN" value="8534"> H.Thủ Thừa</option>
+                      <option data-province="LAN" value="8554"> TX.Kiến Tường</option>
+                      <option data-province="DTP" value="8719"> H.Tân Hồng</option>
+                      <option data-province="DTP" value="8726"> H.Lấp Vò</option>
+                      <option data-province="DTP" value="8710"> TP.Cao Lãnh</option>
+                      <option data-province="DTP" value="8728"> H.Lai Vung</option>
+                      <option data-province="DTP" value="8738"> H.Châu Thành</option>
+                      <option data-province="DTP" value="8721"> H.Hồng Ngự</option>
+                      <option data-province="DTP" value="8740"> H.Cao Lãnh</option>
+                      <option data-province="DTP" value="8731"> TP.Sa Đéc</option>
+                      <option data-province="DTP" value="8714"> H.Tháp Mười</option>
+                      <option data-province="DTP" value="8741"> TX.Hồng Ngự</option>
+                      <option data-province="DTP" value="8724"> H.Thanh Bình</option>
+                      <option data-province="DTP" value="8717"> H.Tam Nông</option>
+                      <option data-province="AGG" value="8830"> TP.Châu Đốc</option>
+                      <option data-province="AGG" value="8825"> H.Phú Tân</option>
+                      <option data-province="AGG" value="8810"> TP.Long Xuyên</option>
+                      <option data-province="AGG" value="8837"> H.An Phú</option>
+                      <option data-province="AGG" value="8816"> H.Chợ Mới</option>
+                      <option data-province="AGG" value="8828"> H.Châu Phú</option>
+                      <option data-province="AGG" value="8834"> TX.Tân Châu</option>
+                      <option data-province="AGG" value="8840"> H.Tịnh Biên</option>
+                      <option data-province="AGG" value="8843"> H.Tri Tôn</option>
+                      <option data-province="AGG" value="8822"> H.Châu Thành</option>
+                      <option data-province="AGG" value="8846"> H.Thoại Sơn</option>
+                      <option data-province="VLG" value="8921"> TX.Bình Minh</option>
+                      <option data-province="VLG" value="8913"> H.Long Hồ</option>
+                      <option data-province="VLG" value="8938"> H.Bình Tân</option>
+                      <option data-province="VLG" value="8929"> H.Vũng Liêm</option>
+                      <option data-province="VLG" value="8917"> H.Tam Bình</option>
+                      <option data-province="VLG" value="8910"> TP.Vĩnh Long</option>
+                      <option data-province="VLG" value="8925"> H.Trà Ôn</option>
+                      <option data-province="VLG" value="8934"> H.Mang Thít</option>
+                      <option data-province="BTE" value="9333"> H.Ba Tri</option>
+                      <option data-province="BTE" value="9317"> H.Chợ Lách</option>
+                      <option data-province="BTE" value="9337"> H.Bình Đại</option>
+                      <option data-province="BTE" value="9321"> H.Mỏ Cày Nam</option>
+                      <option data-province="BTE" value="9320"> H.Mỏ Cày Bắc</option>
+                      <option data-province="BTE" value="9330"> H.Thạnh Phú</option>
+                      <option data-province="BTE" value="9326"> H.Giồng Trôm</option>
+                      <option data-province="BTE" value="9313"> H.Châu Thành</option>
+                      <option data-province="BTE" value="9310"> TP.Bến Tre</option>
+                      <option data-province="KGG" value="9224"> H.An Biên</option>
+                      <option data-province="KGG" value="9238"> H.Giồng Riềng</option>
+                      <option data-province="KGG" value="9246"> H.U Minh Thượng</option>
+                      <option data-province="KGG" value="9218"> H.Kiên Lương</option>
+                      <option data-province="KGG" value="9230"> H.Châu Thành</option>
+                      <option data-province="KGG" value="9216"> H.Hòn Đất</option>
+                      <option data-province="KGG" value="9250"> H.Huyên Giang Thành</option>
+                      <option data-province="KGG" value="9232"> H.Vĩnh Thuận</option>
+                      <option data-province="KGG" value="9210"> TP.Rạch Giá</option>
+                      <option data-province="KGG" value="9214"> H.Tân Hiệp</option>
+                      <option data-province="KGG" value="9222"> H.Phú Quốc</option>
+                      <option data-province="KGG" value="9235"> H.Gò Quao</option>
+                      <option data-province="KGG" value="9220"> TP.Hà Tiên</option>
+                      <option data-province="KGG" value="9241"> H.Kiên Hải</option>
+                      <option data-province="KGG" value="9227"> H.An Minh</option>
+                      <option data-province="TVH" value="9430"> H.Trà Cú</option>
+                      <option data-province="TVH" value="9439"> H.Duyên Hải</option>
+                      <option data-province="TVH" value="9421"> H.Cầu Kè</option>
+                      <option data-province="TVH" value="9417"> H.Càng Long</option>
+                      <option data-province="TVH" value="9426"> H.Châu Thành</option>
+                      <option data-province="TVH" value="9435"> H.Cầu Ngang</option>
+                      <option data-province="TVH" value="9410"> TP.Trà Vinh</option>
+                      <option data-province="TVH" value="9423"> H.Tiểu Cần</option>
+                      <option data-province="STG" value="9517"> H.Long Phú</option>
+                      <option data-province="STG" value="9527"> H.Thạnh Trị</option>
+                      <option data-province="STG" value="9550"> H.Châu Thành</option>
+                      <option data-province="STG" value="9540"> TX.Ngã Năm</option>
+                      <option data-province="STG" value="9520"> H.Kế Sách</option>
+                      <option data-province="STG" value="9538"> H.Cù Lao Dung</option>
+                      <option data-province="STG" value="9511"> H.Trần Đề</option>
+                      <option data-province="STG" value="9510"> TP.Sóc Trăng</option>
+                      <option data-province="STG" value="9530"> H.Mỹ Xuyên</option>
+                      <option data-province="STG" value="9523"> H.Mỹ Tú</option>
+                      <option data-province="STG" value="9535"> TX.Vĩnh Châu</option>
+                      <option data-province="BLU" value="9632"> H.Hòa Bình</option>
+                      <option data-province="BLU" value="9629"> H.Đông Hải</option>
+                      <option data-province="BLU" value="9610"> TP.Bạc Liêu</option>
+                      <option data-province="BLU" value="9626"> TX.Giá Rai</option>
+                      <option data-province="BLU" value="9615"> H.Vĩnh Lợi</option>
+                      <option data-province="BLU" value="9624"> H.Hồng Dân</option>
+                      <option data-province="BLU" value="9621"> H.Phước Long</option>
+                      <option data-province="CMU" value="9727"> H.Cái Nước</option>
+                      <option data-province="CMU" value="9739"> H.Năm Căn</option>
+                      <option data-province="CMU" value="9730"> H.Đầm Dơi</option>
+                      <option data-province="CMU" value="9734"> H.Ngọc Hiển</option>
+                      <option data-province="CMU" value="9721"> H.U Minh</option>
+                      <option data-province="CMU" value="9723"> H.Trần Văn Thời</option>
+                      <option data-province="CMU" value="9736"> H.Phú Tân</option>
+                      <option data-province="CMU" value="9710"> TP.Cà Mau</option>
+                      <option data-province="CMU" value="9718"> H.Thới Bình</option>
+                      <option data-province="DBN" value="3810"> TP.Điện Biên Phủ</option>
+                      <option data-province="DBN" value="3814"> H.Điện Biên</option>
+                      <option data-province="DBN" value="3820"> H.Điện Biên Đông</option>
+                      <option data-province="DBN" value="3839"> TX.Mường Lay</option>
+                      <option data-province="DBN" value="3840"> H.Mường Nhé</option>
+                      <option data-province="DBN" value="3848"> H.Mường Ảng</option>
+                      <option data-province="DBN" value="3841"> H.Nậm Pồ</option>
+                      <option data-province="DBN" value="3833"> H.Mường Chà</option>
+                      <option data-province="DBN" value="3836"> H.Tủa Chùa</option>
+                      <option data-province="DBN" value="3825"> H.Tuần Giáo</option>
+                      <option data-province="CBG" value="2779"> H.Quảng Hòa</option>
+                      <option data-province="TGG" value="8649"> TX.Cai Lậy</option>
+                      <option data-province="TVH" value="9440"> TX.Duyên Hải</option>
+                  </select>
+                  <label>Weight</label>
+                  <input type="number" class="form-control" placeholder="gram" id="weight">
+                  <a href="#" class="btn" role="button">SEARCH</a>
+                </form>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box">
+              <h4> <i class="bi bi-geo-alt"></i>Find Locations</h4>
+              <img src="assets/img/map.png" class="w-100" alt="">
+              <a href="#" class="btn" role="button">SEARCH</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+        <header class="section-header">
+          <p>OUTSTANDING SERVICES</p>
+        </header>
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/express.svg" class="img-fluid" alt="">
+              <h3>Express Delivery</h3>
+              <p>VCN</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="400">
+              <img src="assets/img/eco.svg" class="img-fluid" alt="">
+              <h3>Economical Delivery</h3>
+              <p>VTK</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+              <img src="assets/img/someday.svg" class="img-fluid" alt="">
+              <h3>Same-day Express</h3>
+              <p>VHT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--count-->
+    <section id="count" class="count d-flex align-items-center" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-6 d-flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+              <h1>Post office netword in 63 provinces</h1>
+              <hr></hr>
+              <h5><b>Arrow Express's delivery network</b> covers 63 provinces and cities in Vietnam.</h5>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <span class="text1" data-aos="fade-up" data-aos-delay="300"><i class="bi bi-people"></i> 321.897</span>
+                <span class="text1" data-aos="fade-up" data-aos-delay="300"><i class="bi bi-truck"></i> 621890</span><br>
+                <span class="text2" data-aos="fade-up" data-aos-delay="400">CUSTOMERS TRUST AND USE</span> 
+                <span class="text2" data-aos="fade-up" data-aos-delay="400">ORDERS ARE SHIPPING</span>
+                <img src="assets/img/deco.png"  class="deco" alt="">
+              
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--news-->
+    <section id="news" class="news">
+      <div class="container" data-aos="fade-up">
+        <header class="section-header">
+          <p>NEWS</p>
+        </header>
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="news-box">
+              <div class="news-img"> <i class="ri-discuss-line icon"></i></div>
+              <span class="news-date">Thu, April 15</span>
+              <h3 class="news-title">News demo 1</h3>
+              <a href="#" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="news-box">
+              <div class="news-img"><i class="ri-discuss-line icon"></i></div>
+              <span class="news-date">Mon, April 11</span>
+              <h3 class="news-title">News demo 2</h3>
+              <a href="#" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="news-box">
+              <div class="news-img"><i class="ri-discuss-line icon"></i></div>
+              <span class="news-date">Sun, March 14</span>
+              <h3 class="news-title">News demo 3</h3>
+              <a href="#" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer id="footer" class="footer">
+      <div class="footer-newsletter">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-12 text-center">
+              <h4>Our Newsletter</h4>
+              <p>Description</p>
+            </div>
+            <div class="col-lg-6">
+              <form action="" method="post">
+                <input type="email" name="email"><input type="submit" value="Subscribe">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-top">
+        <div class="container" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-4">
+            <div class="col-lg-5 col-md-12 footer-info">
+              <a href="index.html" class="logo d-flex align-items-center">
+                <img src="assets/img/logo.svg" alt="">
+                <span>Arrow Express</span>
+              </a>
+              <p>Demo description</p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="mail"><i class="bi bi-envelope-fill bx bxl-envelope-fill"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Contact us</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-2 col-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Domestic Services</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">International Services</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Logistics Services</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">E-Commcerce</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+              <h4>Contact Us</h4>
+              <p>
+                Street Address<br>
+                City Address<br>
+                Region Address<br> <br><br>
+                <strong>Phone:</strong> xxx xxxx xxx<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Arrow Express</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="#">Bootstrap</a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- JS file-->
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>
